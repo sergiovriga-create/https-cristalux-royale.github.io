@@ -1,0 +1,3028 @@
+<!DOCTYPE html>
+<!-- saved from url=(0076)https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html -->
+<html lang="it" class="translated-ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cristalux Royale | Lampadari italiani di lusso dal 1899</title>
+  <meta name="description" content="Cristalux Royale - Handcrafted luxury chandeliers from Florence, Italy. Wrought iron, crystals, Murano glass. Exclusive collections for prestigious interiors worldwide.">
+  <meta name="keywords" content="Cristalux Royale, luxury chandeliers, Italian chandeliers, handmade lighting, Murano glass, wrought iron, Florence">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com/">
+  <link href="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/css2" rel="stylesheet">
+
+  <!-- Chart.js -->
+  <script src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/chart.js.download"></script>
+
+  <style>
+    :root {
+      --gold: #C4A747;
+      --gold-light: #D4C5A0;
+      --gold-dark: #8B7355;
+      --dark: #000000;
+      --dark-2: #0A0A0A;
+      --dark-3: #1A1A1A;
+      --cream: #F5F0E8;
+      --cream-2: #FAF7F2;
+      --text-light: #E8E0D0;
+      --text-muted: #A89A7E;
+      --accent: #C9A84C;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background: var(--dark);
+      color: var(--text-light);
+      overflow-x: hidden;
+    }
+
+    /* ===== NAVIGATION ===== */
+    nav {
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      z-index: 1000;
+      padding: 24px 80px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      background: rgba(15,15,15,0.95);
+      backdrop-filter: blur(15px);
+      border-bottom: 1px solid rgba(212,175,55,0.15);
+      transition: all 0.3s ease;
+    }
+
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem;
+      font-weight: 300;
+      color: var(--gold);
+      letter-spacing: 4px;
+      text-decoration: none;
+    }
+
+    .nav-logo span {
+      display: block;
+      font-size: 0.5rem;
+      letter-spacing: 8px;
+      color: var(--text-muted);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+      text-transform: uppercase;
+      margin-top: 3px;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 50px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--text-light);
+      text-decoration: none;
+      font-size: 0.7rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      font-weight: 300;
+      transition: all 0.3s;
+      position: relative;
+    }
+
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -6px; left: 0;
+      width: 0; height: 1.5px;
+      background: var(--gold);
+      transition: width 0.4s;
+    }
+
+    .nav-links a:hover { color: var(--gold); }
+    .nav-links a:hover::after { width: 100%; }
+
+    .nav-cta {
+      background: var(--gold);
+      border: none;
+      color: var(--dark) !important;
+      padding: 10px 28px;
+      font-size: 0.65rem !important;
+      letter-spacing: 2.5px !important;
+      cursor: pointer;
+      transition: all 0.3s !important;
+      font-weight: 500;
+    }
+
+    .nav-cta:hover {
+      background: var(--gold-light) !important;
+      transform: translateY(-2px);
+    }
+
+    /* ===== HERO ===== */
+    #hero {
+      min-height: 100vh;
+      position: relative;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      overflow: hidden;
+      margin-top: 70px;
+    }
+
+    .hero-bg {
+      position: absolute;
+      inset: 0;
+      background: 
+        radial-gradient(ellipse at 20% 40%, rgba(212,175,55,0.06) 0%, transparent 50%),
+        radial-gradient(ellipse at 80% 60%, rgba(212,175,55,0.04) 0%, transparent 50%),
+        linear-gradient(135deg, #0F0F0F 0%, #1A1515 50%, #0F0F0F 100%);
+    }
+
+    .hero-pattern {
+      position: absolute;
+      inset: 0;
+      background-image: 
+        repeating-linear-gradient(45deg, transparent, transparent 50px, rgba(212,175,55,0.01) 50px, rgba(212,175,55,0.01) 51px),
+        repeating-linear-gradient(-45deg, transparent, transparent 50px, rgba(212,175,55,0.01) 50px, rgba(212,175,55,0.01) 51px);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      text-align: center;
+      max-width: 950px;
+      padding: 0 40px;
+    }
+
+    .hero-badge {
+      display: inline-block;
+      border: 1px solid rgba(212,175,55,0.3);
+      color: var(--gold);
+      font-size: 0.62rem;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      padding: 10px 28px;
+      margin-bottom: 50px;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 300;
+    }
+
+    .hero-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(3.5rem, 8vw, 8rem);
+      font-weight: 300;
+      line-height: 1.05;
+      color: #F0E6D2;
+      margin-bottom: 20px;
+      letter-spacing: 3px;
+      text-shadow: 0 4px 12px rgba(0,0,0,0.4);
+      font-style: italic;
+    }
+
+    .hero-title em {
+      font-style: italic;
+      color: var(--gold);
+      font-weight: 300;
+    }
+
+    .hero-subtitle {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.2rem, 2.5vw, 1.8rem);
+      font-weight: 400;
+      color: #8B7E6B;
+      letter-spacing: 3px;
+      margin-bottom: 60px;
+      font-style: italic;
+    }
+
+    .hero-divider {
+      width: 100px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      margin: 0 auto 60px;
+    }
+
+    .hero-desc {
+      font-size: 0.95rem;
+      line-height: 1.9;
+      color: #9A8E7E;
+      max-width: 700px;
+      margin: 0 auto 70px;
+      letter-spacing: 0.5px;
+      font-weight: 400;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    .hero-buttons {
+      display: flex;
+      gap: 24px;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: var(--dark);
+      border: none;
+      padding: 16px 48px;
+      font-size: 0.7rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s;
+    }
+
+    .btn-primary:hover {
+      background: var(--gold-light);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 40px rgba(212,175,55,0.25);
+    }
+
+    .btn-secondary {
+      background: transparent;
+      color: var(--cream);
+      border: 1.5px solid rgba(232,213,163,0.3);
+      padding: 16px 48px;
+      font-size: 0.7rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 400;
+      text-decoration: none;
+      display: inline-block;
+      transition: all 0.3s;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    .hero-stats {
+      position: absolute;
+      bottom: 80px;
+      left: 0; right: 0;
+      display: flex;
+      justify-content: center;
+      gap: 100px;
+    }
+
+    .hero-stat {
+      text-align: center;
+    }
+
+    .hero-stat-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.8rem;
+      font-weight: 300;
+      color: var(--gold);
+      display: block;
+    }
+
+    .hero-stat-label {
+      font-size: 0.58rem;
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 6px;
+      font-weight: 300;
+    }
+
+    /* ===== SECTIONS ===== */
+    section {
+      padding: 140px 80px;
+    }
+
+    .section-header {
+      text-align: center;
+      margin-bottom: 100px;
+    }
+
+    .section-tag {
+      font-size: 0.6rem;
+      letter-spacing: 6px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 24px;
+      display: block;
+      font-weight: 300;
+    }
+
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.2rem, 5vw, 4rem);
+      font-weight: 400;
+      color: #E8D5A3;
+      line-height: 1.2;
+      margin-bottom: 24px;
+      letter-spacing: 1.5px;
+      text-shadow: 0 2px 6px rgba(0,0,0,0.2);
+    }
+
+    .section-title em { font-style: italic; color: var(--gold); }
+
+    .section-line {
+      width: 80px;
+      height: 1px;
+      background: var(--gold);
+      margin: 0 auto 32px;
+    }
+
+    .section-desc {
+      font-size: 0.92rem;
+      line-height: 1.9;
+      color: #8B7E6B;
+      max-width: 700px;
+      margin: 0 auto;
+      font-weight: 400;
+      letter-spacing: 0.3px;
+    }
+
+    /* ===== STORIA ===== */
+    #storia {
+      background: var(--dark-2);
+    }
+
+    .storia-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 100px;
+      align-items: center;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .storia-text h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.2rem;
+      font-weight: 400;
+      color: #E8D5A3;
+      margin-bottom: 28px;
+      letter-spacing: 1px;
+    }
+
+    .storia-text p {
+      font-size: 0.92rem;
+      line-height: 2;
+      color: #8B7E6B;
+      margin-bottom: 24px;
+      font-weight: 400;
+      letter-spacing: 0.3px;
+    }
+
+    .storia-highlight {
+      border-left: 2.5px solid var(--gold);
+      padding-left: 32px;
+      margin: 40px 0;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-style: italic;
+      color: var(--cream);
+      line-height: 1.7;
+      font-weight: 300;
+    }
+
+    .storia-milestones {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .milestone {
+      display: flex;
+      gap: 32px;
+      padding: 32px 0;
+      border-bottom: 1px solid rgba(212,175,55,0.08);
+      position: relative;
+    }
+
+    .milestone:last-child { border-bottom: none; }
+
+    .milestone-year {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      font-weight: 300;
+      color: var(--gold);
+      min-width: 90px;
+      line-height: 1;
+    }
+
+    .milestone-content h4 {
+      font-size: 0.75rem;
+      letter-spacing: 2px;
+      color: var(--cream);
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      font-weight: 500;
+    }
+
+    .milestone-content p {
+      font-size: 0.8rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+      font-weight: 300;
+    }
+
+    /* ===== CATALOGO ===== */
+    #catalogo {
+      background: var(--dark);
+    }
+
+    .catalogo-filters {
+      display: flex;
+      gap: 16px;
+      justify-content: center;
+      margin-bottom: 80px;
+      flex-wrap: wrap;
+    }
+
+    .filter-btn {
+      background: transparent;
+      border: 1px solid rgba(212,175,55,0.25);
+      color: var(--text-muted);
+      padding: 11px 32px;
+      font-size: 0.65rem;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      transition: all 0.3s;
+      font-weight: 400;
+    }
+
+    .filter-btn.active, .filter-btn:hover {
+      background: var(--gold);
+      border-color: var(--gold);
+      color: var(--dark);
+    }
+
+    .catalogo-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 3px;
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .product-card {
+      position: relative;
+      overflow: hidden;
+      cursor: pointer;
+      background: var(--dark-3);
+      aspect-ratio: 3/4;
+    }
+
+    .product-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform 0.7s ease;
+      filter: brightness(0.75) contrast(1.05);
+    }
+
+    .product-card:hover img {
+      transform: scale(1.08);
+      filter: brightness(0.55) contrast(1.1);
+    }
+
+    .product-overlay {
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(15,15,15,0.95) 0%, rgba(15,15,15,0.15) 50%, transparent 100%);
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      padding: 40px;
+      transition: all 0.4s;
+    }
+
+    .product-badge {
+      position: absolute;
+      top: 24px; right: 24px;
+      background: var(--gold);
+      color: var(--dark);
+      font-size: 0.56rem;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      font-weight: 600;
+    }
+
+    .product-collection {
+      font-size: 0.58rem;
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 10px;
+      font-weight: 300;
+    }
+
+    .product-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.7rem;
+      font-weight: 400;
+      color: #E8D5A3;
+      margin-bottom: 8px;
+      line-height: 1.2;
+      letter-spacing: 0.5px;
+    }
+
+    .product-details {
+      font-size: 0.72rem;
+      color: #8B7E6B;
+      margin-bottom: 18px;
+      font-weight: 400;
+      letter-spacing: 0.3px;
+    }
+
+    .product-price {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      color: var(--gold);
+      font-weight: 300;
+    }
+
+    .product-actions {
+      display: flex;
+      gap: 12px;
+      margin-top: 20px;
+      opacity: 0;
+      transform: translateY(12px);
+      transition: all 0.3s;
+    }
+
+    .product-card:hover .product-actions {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .product-btn {
+      flex: 1;
+      background: var(--gold);
+      border: none;
+      color: var(--dark);
+      padding: 11px;
+      font-size: 0.6rem;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500;
+      transition: all 0.3s;
+    }
+
+    .product-btn:hover { background: var(--gold-light); }
+
+    .product-btn-outline {
+      background: transparent;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      padding: 11px 16px;
+      font-size: 0.6rem;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      transition: all 0.3s;
+    }
+
+    .product-btn-outline:hover {
+      background: var(--gold);
+      color: var(--dark);
+    }
+
+    /* ===== COLLEZIONI ===== */
+    #collezioni {
+      background: var(--dark-2);
+    }
+
+    .collezioni-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 36px;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .collezione-card {
+      background: var(--dark-3);
+      border: 1px solid rgba(212,175,55,0.12);
+      padding: 48px 40px;
+      text-align: center;
+      transition: all 0.4s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .collezione-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      transform: scaleX(0);
+      transition: transform 0.4s;
+    }
+
+    .collezione-card:hover::before { transform: scaleX(1); }
+
+    .collezione-card:hover {
+      border-color: rgba(212,175,55,0.25);
+      transform: translateY(-8px);
+      box-shadow: 0 24px 60px rgba(0,0,0,0.5);
+    }
+
+    .collezione-icon {
+      font-size: 2.8rem;
+      margin-bottom: 24px;
+      display: block;
+    }
+
+    .collezione-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.7rem;
+      font-weight: 300;
+      color: var(--cream);
+      margin-bottom: 14px;
+    }
+
+    .collezione-desc {
+      font-size: 0.8rem;
+      line-height: 1.9;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+      font-weight: 300;
+    }
+
+    .collezione-tag {
+      display: inline-block;
+      border: 1px solid rgba(212,175,55,0.3);
+      color: var(--gold);
+      font-size: 0.58rem;
+      letter-spacing: 2.5px;
+      padding: 6px 16px;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+
+    /* ===== MERCATO & STRATEGIA ===== */
+    #strategia {
+      background: var(--dark);
+    }
+
+    .strategia-container {
+      max-width: 1400px;
+      margin: 0 auto;
+    }
+
+    .strategia-tabs {
+      display: flex;
+      gap: 0;
+      margin-bottom: 80px;
+      border-bottom: 1px solid rgba(212,175,55,0.15);
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      padding: 18px 40px;
+      font-size: 0.68rem;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      transition: all 0.3s;
+      border-bottom: 2px solid transparent;
+      margin-bottom: -1px;
+      font-weight: 400;
+    }
+
+    .tab-btn.active, .tab-btn:hover {
+      color: var(--gold);
+      border-bottom-color: var(--gold);
+    }
+
+    .tab-content { display: none; }
+    .tab-content.active { display: block; }
+
+    .charts-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 80px;
+    }
+
+    .chart-card {
+      background: var(--dark-3);
+      border: 1px solid rgba(212,175,55,0.12);
+      padding: 40px;
+    }
+
+    .chart-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      color: var(--cream);
+      margin-bottom: 10px;
+      font-weight: 300;
+    }
+
+    .chart-subtitle {
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+      letter-spacing: 1px;
+      font-weight: 300;
+    }
+
+    .chart-wrapper {
+      position: relative;
+      height: 300px;
+    }
+
+    .canali-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+
+    .canale-card {
+      background: var(--dark-3);
+      border: 1px solid rgba(212,175,55,0.12);
+      padding: 36px 32px;
+      transition: all 0.3s;
+    }
+
+    .canale-card:hover {
+      border-color: rgba(212,175,55,0.3);
+      transform: translateY(-6px);
+    }
+
+    .canale-header {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      margin-bottom: 18px;
+    }
+
+    .canale-icon {
+      width: 52px; height: 52px;
+      background: rgba(212,175,55,0.1);
+      border: 1px solid rgba(212,175,55,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+
+    .canale-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      color: var(--cream);
+      font-weight: 300;
+    }
+
+    .canale-type {
+      font-size: 0.58rem;
+      letter-spacing: 2.5px;
+      color: var(--gold);
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+
+    .canale-desc {
+      font-size: 0.8rem;
+      line-height: 1.85;
+      color: var(--text-muted);
+      margin-bottom: 18px;
+      font-weight: 300;
+    }
+
+    .canale-rating {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .rating-bar {
+      flex: 1;
+      height: 3px;
+      background: rgba(212,175,55,0.12);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+
+    .rating-fill {
+      height: 100%;
+      background: var(--gold);
+      border-radius: 2px;
+    }
+
+    .rating-label {
+      font-size: 0.63rem;
+      color: var(--gold);
+      min-width: 35px;
+      text-align: right;
+      font-weight: 500;
+    }
+
+    .marketing-steps {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 36px;
+    }
+
+    .step-card {
+      background: var(--dark-3);
+      border: 1px solid rgba(212,175,55,0.12);
+      padding: 42px 38px;
+      position: relative;
+      transition: all 0.3s;
+    }
+
+    .step-card:hover {
+      border-color: rgba(212,175,55,0.25);
+    }
+
+    .step-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 4.5rem;
+      font-weight: 300;
+      color: rgba(212,175,55,0.1);
+      position: absolute;
+      top: 12px; right: 20px;
+      line-height: 1;
+    }
+
+    .step-icon {
+      font-size: 2rem;
+      margin-bottom: 18px;
+    }
+
+    .step-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      color: var(--cream);
+      margin-bottom: 14px;
+      font-weight: 300;
+    }
+
+    .step-desc {
+      font-size: 0.8rem;
+      line-height: 1.95;
+      color: var(--text-muted);
+      margin-bottom: 18px;
+      font-weight: 300;
+    }
+
+    .step-tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .step-tag {
+      background: rgba(212,175,55,0.08);
+      border: 1px solid rgba(212,175,55,0.2);
+      color: var(--gold);
+      font-size: 0.58rem;
+      letter-spacing: 1.5px;
+      padding: 5px 12px;
+      text-transform: uppercase;
+      font-weight: 300;
+    }
+
+    /* ===== RECENSIONI ===== */
+    #recensioni {
+      background: var(--dark-2);
+    }
+
+    .recensioni-header-stats {
+      display: flex;
+      gap: 80px;
+      justify-content: center;
+      margin-bottom: 100px;
+    }
+
+    .review-stat {
+      text-align: center;
+    }
+
+    .review-stat-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3.2rem;
+      font-weight: 300;
+      color: var(--gold);
+      display: block;
+    }
+
+    .review-stat-label {
+      font-size: 0.63rem;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      margin-top: 8px;
+      font-weight: 300;
+    }
+
+    .stars {
+      color: var(--gold);
+      font-size: 1rem;
+      letter-spacing: 2px;
+    }
+
+    .recensioni-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+      max-width: 1300px;
+      margin: 0 auto 80px;
+    }
+
+    .review-card {
+      background: var(--dark-3);
+      border: 1px solid rgba(212,175,55,0.12);
+      padding: 42px 38px;
+      position: relative;
+      transition: all 0.3s;
+    }
+
+    .review-card:hover {
+      border-color: rgba(212,175,55,0.25);
+      transform: translateY(-6px);
+    }
+
+    .review-quote {
+      font-size: 3.5rem;
+      color: rgba(212,175,55,0.15);
+      font-family: 'Cormorant Garamond', serif;
+      line-height: 1;
+      margin-bottom: 18px;
+    }
+
+    .review-text {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-style: italic;
+      color: var(--cream);
+      line-height: 1.8;
+      margin-bottom: 28px;
+      font-weight: 300;
+    }
+
+    .review-author {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      border-top: 1px solid rgba(212,175,55,0.1);
+      padding-top: 22px;
+    }
+
+    .review-avatar {
+      width: 48px; height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-dark), var(--gold));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      color: var(--dark);
+      font-weight: 600;
+      flex-shrink: 0;
+    }
+
+    .review-author-name {
+      font-size: 0.82rem;
+      color: var(--cream);
+      font-weight: 500;
+      margin-bottom: 3px;
+    }
+
+    .review-author-location {
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      letter-spacing: 1px;
+      font-weight: 300;
+    }
+
+    .review-product {
+      font-size: 0.6rem;
+      color: var(--gold);
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      margin-top: 4px;
+      font-weight: 300;
+    }
+
+    /* ===== CONTATTI ===== */
+    #contatti {
+      background: var(--dark);
+    }
+
+    .contatti-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 100px;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    .contatti-info h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.2rem;
+      font-weight: 300;
+      color: var(--cream);
+      margin-bottom: 28px;
+    }
+
+    .contatti-info p {
+      font-size: 0.85rem;
+      line-height: 2.1;
+      color: var(--text-muted);
+      margin-bottom: 48px;
+      font-weight: 300;
+    }
+
+    .contact-items {
+      display: flex;
+      flex-direction: column;
+      gap: 28px;
+    }
+
+    .contact-item {
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+    }
+
+    .contact-icon {
+      width: 48px; height: 48px;
+      border: 1px solid rgba(212,175,55,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      flex-shrink: 0;
+      color: var(--gold);
+    }
+
+    .contact-detail h4 {
+      font-size: 0.68rem;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+
+    .contact-detail p {
+      font-size: 0.85rem;
+      color: var(--text-muted);
+      margin-bottom: 0;
+      line-height: 1.7;
+      font-weight: 300;
+    }
+
+    .contact-detail a {
+      color: var(--gold);
+      text-decoration: none;
+      transition: color 0.3s;
+    }
+
+    .contact-detail a:hover {
+      color: var(--gold-light);
+    }
+
+    .contatti-form {
+      display: flex;
+      flex-direction: column;
+      gap: 24px;
+    }
+
+    .form-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 20px;
+    }
+
+    .form-group {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .form-group label {
+      font-size: 0.63rem;
+      letter-spacing: 2.5px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      background: var(--dark-3);
+      border: 1px solid rgba(212,175,55,0.2);
+      color: var(--cream);
+      padding: 16px 20px;
+      font-size: 0.85rem;
+      font-family: 'Montserrat', sans-serif;
+      outline: none;
+      transition: border-color 0.3s;
+      font-weight: 300;
+    }
+
+    .form-group input:focus,
+    .form-group select:focus,
+    .form-group textarea:focus {
+      border-color: var(--gold);
+    }
+
+    .form-group select option {
+      background: var(--dark-3);
+    }
+
+    .form-group textarea {
+      resize: vertical;
+      min-height: 140px;
+    }
+
+    .form-submit {
+      background: var(--gold);
+      border: none;
+      color: var(--dark);
+      padding: 18px;
+      font-size: 0.7rem;
+      letter-spacing: 3px;
+      text-transform: uppercase;
+      cursor: pointer;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      transition: all 0.3s;
+      margin-top: 10px;
+    }
+
+    .form-submit:hover {
+      background: var(--gold-light);
+      transform: translateY(-3px);
+    }
+
+    /* ===== FOOTER ===== */
+    footer {
+      background: var(--dark-2);
+      border-top: 1px solid rgba(212,175,55,0.1);
+      padding: 100px 80px 50px;
+    }
+
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 80px;
+      margin-bottom: 80px;
+      max-width: 1300px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .footer-brand .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      font-weight: 300;
+      color: var(--gold);
+      letter-spacing: 4px;
+      margin-bottom: 8px;
+    }
+
+    .footer-brand .tagline {
+      font-size: 0.58rem;
+      letter-spacing: 5px;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      margin-bottom: 24px;
+      font-weight: 300;
+    }
+
+    .footer-brand p {
+      font-size: 0.8rem;
+      line-height: 2;
+      color: var(--text-muted);
+      font-weight: 300;
+    }
+
+    .footer-col h4 {
+      font-size: 0.63rem;
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 24px;
+      font-weight: 500;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+
+    .footer-col ul li a {
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.8rem;
+      transition: color 0.3s;
+      font-weight: 300;
+    }
+
+    .footer-col ul li a:hover { color: var(--gold); }
+
+    .footer-bottom {
+      border-top: 1px solid rgba(212,175,55,0.1);
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      max-width: 1300px;
+      margin: 0 auto;
+    }
+
+    .footer-bottom p {
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      font-weight: 300;
+    }
+
+    .footer-social {
+      display: flex;
+      gap: 18px;
+    }
+
+    .social-link {
+      width: 40px; height: 40px;
+      border: 1px solid rgba(212,175,55,0.25);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--text-muted);
+      text-decoration: none;
+      font-size: 0.78rem;
+      transition: all 0.3s;
+      font-weight: 500;
+    }
+
+    .social-link:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+      background: rgba(212,175,55,0.05);
+    }
+
+    /* ===== MODAL ===== */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.88);
+      z-index: 2000;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(5px);
+    }
+
+    .modal-overlay.open { display: flex; }
+
+    .modal {
+      background: var(--dark-2);
+      border: 1px solid rgba(212,175,55,0.25);
+      max-width: 750px;
+      width: 92%;
+      max-height: 90vh;
+      overflow-y: auto;
+      position: relative;
+    }
+
+    .modal-img {
+      width: 100%;
+      height: 340px;
+      object-fit: cover;
+    }
+
+    .modal-body {
+      padding: 48px;
+    }
+
+    .modal-close {
+      position: absolute;
+      top: 20px; right: 20px;
+      background: rgba(15,15,15,0.85);
+      border: 1px solid rgba(212,175,55,0.3);
+      color: var(--gold);
+      width: 40px; height: 40px;
+      cursor: pointer;
+      font-size: 1.1rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      z-index: 10;
+    }
+
+    .modal-collection {
+      font-size: 0.58rem;
+      letter-spacing: 3.5px;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 10px;
+      font-weight: 300;
+    }
+
+    .modal-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.2rem;
+      font-weight: 300;
+      color: var(--cream);
+      margin-bottom: 10px;
+    }
+
+    .modal-price {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.7rem;
+      color: var(--gold);
+      margin-bottom: 24px;
+      font-weight: 300;
+    }
+
+    .modal-desc {
+      font-size: 0.85rem;
+      line-height: 2;
+      color: var(--text-muted);
+      margin-bottom: 28px;
+      font-weight: 300;
+    }
+
+    .modal-specs {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 14px;
+      margin-bottom: 32px;
+    }
+
+    .spec-item {
+      background: var(--dark-3);
+      padding: 14px 18px;
+    }
+
+    .spec-label {
+      font-size: 0.58rem;
+      letter-spacing: 2.5px;
+      color: var(--gold);
+      text-transform: uppercase;
+      margin-bottom: 5px;
+      font-weight: 500;
+    }
+
+    .spec-value {
+      font-size: 0.85rem;
+      color: var(--cream);
+      font-weight: 300;
+    }
+
+    .modal-actions {
+      display: flex;
+      gap: 14px;
+    }
+
+    .scroll-indicator {
+      position: absolute;
+      bottom: 40px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+      animation: bounce 2s infinite;
+    }
+
+    .scroll-indicator span {
+      font-size: 0.56rem;
+      letter-spacing: 3.5px;
+      text-transform: uppercase;
+      color: var(--text-muted);
+      font-weight: 300;
+    }
+
+    .scroll-line {
+      width: 1px;
+      height: 45px;
+      background: linear-gradient(to bottom, var(--gold), transparent);
+    }
+
+    @keyframes bounce {
+      0%, 100% { transform: translateX(-50%) translateY(0); }
+      50% { transform: translateX(-50%) translateY(8px); }
+    }
+
+    .fade-in {
+      opacity: 0;
+      transform: translateY(40px);
+      transition: opacity 0.9s ease, transform 0.9s ease;
+    }
+
+    .fade-in.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    @media (max-width: 1024px) {
+      nav { padding: 18px 40px; }
+      section { padding: 100px 40px; }
+      .storia-grid, .contatti-grid { grid-template-columns: 1fr; gap: 60px; }
+      .catalogo-grid { grid-template-columns: repeat(2, 1fr); }
+      .collezioni-grid { grid-template-columns: repeat(2, 1fr); }
+      .charts-grid { grid-template-columns: 1fr; }
+      .canali-grid { grid-template-columns: repeat(2, 1fr); }
+      .marketing-steps { grid-template-columns: 1fr; }
+      .recensioni-grid { grid-template-columns: repeat(2, 1fr); }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 50px; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+      .hero-stats { gap: 40px; flex-wrap: wrap; }
+      .catalogo-grid { grid-template-columns: 1fr; }
+      .collezioni-grid { grid-template-columns: 1fr; }
+      .canali-grid { grid-template-columns: 1fr; }
+      .recensioni-grid { grid-template-columns: 1fr; }
+      .form-row { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; }
+      .footer-bottom { flex-direction: column; gap: 24px; }
+      .recensioni-header-stats { gap: 40px; flex-wrap: wrap; }
+    }
+  </style>
+<link type="text/css" rel="stylesheet" charset="UTF-8" href="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/m=el_main_css"></head>
+<body>
+
+  <!-- NAVIGATION -->
+  <nav id="navbar" style="padding: 14px 80px;">
+    <a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#hero" class="nav-logo"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+      CRISTALUX ROYALE
+      </font></font><span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lampadari di lusso · Dal 1899</font></font></span>
+    </a>
+    <ul class="nav-links">
+      <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#storia"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Eredità</font></font></a></li>
+      <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#catalogo"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Catalogare</font></font></a></li>
+      <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#collezioni"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Collezioni</font></font></a></li>
+      <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#strategia"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Mercato</font></font></a></li>
+      <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#recensioni"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Recensioni</font></font></a></li>
+      <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#contatti" class="nav-cta"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Contatto</font></font></a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="hero">
+    <div class="hero-bg"></div>
+    <div class="hero-pattern"></div>
+    <div class="hero-content">
+      <div class="hero-badge"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Produzione artigianale di alta qualità · Dal 1899</font></font></div>
+      <div style="background:#C4A747; color:#000000; padding:8px 16px; border-radius:4px; display:inline-block; margin-bottom:20px; font-size:0.75rem; font-weight:600; letter-spacing:1px;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">⚡ PEZZI RARI · DISPONIBILITÀ LIMITATA</font></font></div>
+            <h1 class="hero-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+        Eleganza Luminosa
+      </font></font></h1>
+      <p class="hero-subtitle"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Illuminazione di lusso realizzata a mano · Eccellenza artigianale italiana</font></font></p>
+      <div class="hero-divider"></div>
+      <p class="hero-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+        Dal 1899, ogni creazione Cristalux Royale incarna l'apice dell'artigianato italiano. Capolavori in ferro battuto, cristalli tagliati a mano e vetro di Murano che impreziosiscono gli interni più esclusivi del mondo.
+      </font></font></p>
+
+            <div class="hero-buttons">
+        <a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#catalogo" class="btn-primary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Esplora il catalogo</font></font></a>
+        <a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#storia" class="btn-secondary"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Il nostro patrimonio</font></font></a>
+      </div>
+    </div>
+    <div class="hero-stats">
+      <div class="hero-stat">
+        <span class="hero-stat-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">1899</font></font></span>
+        <span class="hero-stat-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Fondato</font></font></span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">125+</font></font></span>
+        <span class="hero-stat-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Anni di maestria artigianale</font></font></span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">60+</font></font></span>
+        <span class="hero-stat-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Paesi serviti</font></font></span>
+      </div>
+      <div class="hero-stat">
+        <span class="hero-stat-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Oltre 5000</font></font></span>
+        <span class="hero-stat-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Pezzi creati</font></font></span>
+      </div>
+    </div>
+    <div class="scroll-indicator">
+      <span><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Scorri</font></font></span>
+      <div class="scroll-line"></div>
+    </div>
+  </section>
+
+  <!-- HERITAGE -->
+  <section id="storia">
+    <div class="section-header fade-in visible">
+      <span class="section-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">La nostra eredità</font></font></span>
+      <h2 class="section-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Una storia di </font></font><em><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">eccellenza</font></font></em></h2>
+      <div class="section-line"></div>
+      <p class="section-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Fondata nel cuore di Firenze nel 1899, Cristalux Royale è diventata sinonimo di lusso artigianale nel settore dell'illuminazione italiana.</font></font></p>
+    </div>
+    <div class="storia-grid">
+      <div class="storia-text fade-in visible">
+        <h3><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Dall'atelier fiorentino al mondo</font></font></h3>
+        <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">La storia di Cristalux Royale inizia nel 1899, quando maestri artigiani fiorentini aprirono la loro prima bottega nel centro storico di Firenze, dedicandosi al restauro di specchi e lampadari per gli antiquari della città. Questa passione artigianale si è tramandata di generazione in generazione.</font></font></p>
+        <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">A partire dagli anni '30, con l'evoluzione della produzione, sono emersi lampadari e complementi d'arredo progettati e realizzati interamente a Firenze: prodotti di altissima qualità che hanno conquistato il cuore di molti.</font></font></p>
+        <div class="storia-highlight"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+          "Uno dei pochi marchi italiani ad essere battuti all'asta da case prestigiose come Sotheby's: un riconoscimento dell'inestimabile valore di ogni singolo pezzo."
+        </font></font></div>
+        <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Oggi, Cristalux Royale è leader mondiale nel settore dell'illuminazione d'interni di lusso, con una collezione che spazia dal classico al contemporaneo, sempre fedele alla tradizione artigianale fiorentina.</font></font></p>
+      </div>
+      <div class="storia-milestones fade-in visible">
+        <div class="milestone">
+          <span class="milestone-year"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">1899</font></font></span>
+          <div class="milestone-content">
+            <h4><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">La Fondazione</font></font></h4>
+            <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Apertura del primo laboratorio nel centro storico di Firenze, specializzato nel restauro di specchi e lampadari antichi.</font></font></p>
+          </div>
+        </div>
+        <div class="milestone">
+          <span class="milestone-year"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">1930</font></font></span>
+          <div class="milestone-content">
+            <h4><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Inizio della produzione</font></font></h4>
+            <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lancio di una produzione originale di lampadari e complementi d'arredo, Made in Florence.</font></font></p>
+          </div>
+        </div>
+        <div class="milestone">
+          <span class="milestone-year"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">1960</font></font></span>
+          <div class="milestone-content">
+            <h4><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Espansione internazionale</font></font></h4>
+            <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">I lampadari conquistano i mercati europei e americani. Nascono collezioni iconiche in ferro battuto e vetro di Murano.</font></font></p>
+          </div>
+        </div>
+        <div class="milestone">
+          <span class="milestone-year"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">1990</font></font></span>
+          <div class="milestone-content">
+            <h4><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Riconoscimento globale</font></font></h4>
+            <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">I pezzi vintage diventano oggetti da collezione molto ricercati in tutto il mondo.</font></font></p>
+          </div>
+        </div>
+        <div class="milestone">
+          <span class="milestone-year"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">2024</font></font></span>
+          <div class="milestone-content">
+            <h4><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Collezione SuperClassica</font></font></h4>
+            <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lancio della nuova collezione SuperClassic: un omaggio alla natura con lampadari di cristallo incastonati a mano.</font></font></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CATALOG -->
+  <section id="catalogo">
+    <div class="section-header fade-in visible">
+      <span class="section-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Collezione esclusiva</font></font></span>
+      <h2 class="section-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Il nostro </font></font><em><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">catalogo</font></font></em></h2>
+      <div class="section-line"></div>
+      <p class="section-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ogni pezzo è unico, realizzato a mano dai nostri maestri artigiani fiorentini utilizzando i migliori materiali disponibili.</font></font></p>
+    </div>
+    <div class="catalogo-filters fade-in visible">
+      <button class="filter-btn active" onclick="filterProducts(&#39;tutti&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Tutto</font></font></button>
+      <button class="filter-btn" onclick="filterProducts(&#39;lampadari&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lampadari</font></font></button>
+      <button class="filter-btn" onclick="filterProducts(&#39;lampade-terra&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lampade da terra</font></font></button>
+      <button class="filter-btn" onclick="filterProducts(&#39;tavolini&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lampade da tavolo</font></font></button>
+      <button class="filter-btn" onclick="filterProducts(&#39;applique&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Applique da parete</font></font></button>
+      <button class="filter-btn" onclick="filterProducts(&#39;ricambi&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Pezzi di ricambio</font></font></button>
+      <button class="filter-btn" onclick="filterProducts(&#39;impianto&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Elettrico</font></font></button>
+
+    </div>
+    <div class="catalogo-grid fade-in visible" id="productsGrid">
+
+      <div class="product-card" data-category="lampadari" onclick="openModal(&#39;superclassic-flora&#39;)">
+        <img src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/chandelier1.jpg" alt="Flora SuperClassica - Cristalux Royale" loading="lazy">
+        <div class="product-overlay">
+          <div class="product-badge"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Esclusivo</font></font></div>
+          <span class="product-collection"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">SuperClassico</font></font></span>
+          <h3 class="product-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Flora Dorata</font></font></h3>
+          <p class="product-details"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ferro battuto · Cristalli tagliati a mano · 6 luci | Fondata nel 1920 | Specifiche dettagliate disponibili su richiesta</font></font></p>
+          <span class="product-price" style="color: #D4AF37; font-style: italic;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Su richiesta</font></font></span>
+          <div class="product-actions">
+            <button class="product-btn" onclick="contactWhatsApp(&#39;Flora Dorata&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Bomba</font></font></button>
+            <button class="product-btn-outline"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">♡</font></font></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="lampadari" onclick="openModal(&#39;imperiale&#39;)">
+        <img src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/chandelier2.jpg" alt="Imperiale - Cristalux Royale" loading="lazy">
+        <div class="product-overlay">
+          <div class="product-badge"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Oggetto da collezione</font></font></div>
+          <span class="product-collection"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Classico</font></font></span>
+          <h3 class="product-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Imperiale</font></font></h3>
+          <p class="product-details"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ottone dorato · Cristalli Swarovski · 5 luci | Fondata nel 1935 | Specifiche dettagliate disponibili su richiesta</font></font></p>
+          <span class="product-price" style="color: #D4AF37; font-style: italic;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Su richiesta</font></font></span>
+          <div class="product-actions">
+            <button class="product-btn" onclick="contactWhatsApp(&#39;Imperiale&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Bomba</font></font></button>
+            <button class="product-btn-outline"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">♡</font></font></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="lampadari" onclick="openModal(&#39;ramo-cristallo&#39;)">
+        <img src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/chandelier3.jpg" alt="Ramo di Cristallo - Cristalux Royale" loading="lazy">
+        <div class="product-overlay">
+          <div class="product-badge"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Best seller</font></font></div>
+          <span class="product-collection"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">SuperClassico</font></font></span>
+          <h3 class="product-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ramo di Cristallo</font></font></h3>
+          <p class="product-details"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ferro dorato · Cristalli tagliati a mano · 8 luci | Fondata nel 1950 | Specifiche dettagliate disponibili su richiesta</font></font></p>
+          <span class="product-price" style="color: #D4AF37; font-style: italic;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Su richiesta</font></font></span>
+          <div class="product-actions">
+            <button class="product-btn" onclick="contactWhatsApp(&#39;Ramo di Cristallo&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Bomba</font></font></button>
+            <button class="product-btn-outline"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">♡</font></font></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="lampadari" onclick="openModal(&#39;grande-toscano&#39;)">
+        <img src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/chandelier4.jpg" alt="Grande Toscano - Cristalux Royale" loading="lazy">
+        <div class="product-overlay">
+          <div class="product-badge"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Capolavoro</font></font></div>
+          <span class="product-collection"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ferro battuto</font></font></span>
+          <h3 class="product-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Grande Toscana</font></font></h3>
+          <p class="product-details"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ferro battuto · Foglia d'oro · 12 luci | Fondata nel 1960 | Specifiche dettagliate disponibili su richiesta</font></font></p>
+          <span class="product-price" style="color: #D4AF37; font-style: italic;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Su richiesta</font></font></span>
+          <div class="product-actions">
+            <button class="product-btn" onclick="contactWhatsApp(&#39;Grande Toscano&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Bomba</font></font></button>
+            <button class="product-btn-outline"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">♡</font></font></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="lampadari" onclick="openModal(&#39;rinascimento&#39;)">
+        <img src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/chandelier5.jpg" alt="Rinascimento - Cristalux Royale" loading="lazy">
+        <div class="product-overlay">
+          <div class="product-badge"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Eredità</font></font></div>
+          <span class="product-collection"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ferro battuto</font></font></span>
+          <h3 class="product-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Rinascimento</font></font></h3>
+          <p class="product-details"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ferro battuto · Cristalli tagliati a mano · 8 luci | Fondata nel 1945 | Specifiche dettagliate disponibili su richiesta</font></font></p>
+          <span class="product-price" style="color: #D4AF37; font-style: italic;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Su richiesta</font></font></span>
+          <div class="product-actions">
+            <button class="product-btn" onclick="contactWhatsApp(&#39;Rinascimento&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Bomba</font></font></button>
+            <button class="product-btn-outline"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">♡</font></font></button>
+          </div>
+        </div>
+      </div>
+
+      <div class="product-card" data-category="lampadari" onclick="openModal(&#39;murano-gold&#39;)">
+        <img src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/chandelier6.jpg" alt="Oro Murano - Cristalux Royale" loading="lazy">
+        <div class="product-overlay">
+          <div class="product-badge"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Raro</font></font></div>
+          <span class="product-collection"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Vetro di Murano</font></font></span>
+          <h3 class="product-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Oro Murano</font></font></h3>
+          <p class="product-details"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Vetro di Murano soffiato a mano · Ottone · 10 luci | Fondata nel 1970 | Specifiche dettagliate disponibili su richiesta</font></font></p>
+          <span class="product-price" style="color: #D4AF37; font-style: italic;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Su richiesta</font></font></span>
+          <div class="product-actions">
+            <button class="product-btn" onclick="contactWhatsApp(&#39;Murano Gold&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Bomba</font></font></button>
+            <button class="product-btn-outline"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">♡</font></font></button>
+          </div>
+        </div>
+
+      <!-- FLOOR LAMPS -->
+      <div class="product-card" data-category="lampade-terra" onclick="openModal(&#39;floor-lamp-1&#39;)">
+        <img src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/floor-lamp1.jpg" alt="Lampada da terra Elegance - Cristalux Royale" loading="lazy">
+        <div class="product-overlay">
+          <span class="product-collection"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lampade da terra</font></font></span>
+          <h3 class="product-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Piano Eleganza</font></font></h3>
+          <p class="product-details"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ferro battuto · Cristalli · Regolabile</font></font></p>
+          <span class="product-price"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">€ 1.200</font></font></span>
+          <div class="product-actions">
+            <button class="product-btn" onclick="contactWhatsApp(&#39;Elegance Floor Lamp&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Bomba</font></font></button>
+            <button class="product-btn-outline"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">♡</font></font></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- TABLE LAMPS -->
+      <div class="product-card" data-category="tavolini" onclick="openModal(&#39;table-lamp-1&#39;)">
+        <img src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/table-lamp1.jpg" alt="Lampada da tavolo in cristallo - Cristalux Royale" loading="lazy">
+        <div class="product-overlay">
+          <span class="product-collection"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lampade da tavolo</font></font></span>
+          <h3 class="product-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Eleganza cristallina</font></font></h3>
+          <p class="product-details"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ottone · Cristalli tagliati a mano · E27</font></font></p>
+          <span class="product-price"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">€ 680</font></font></span>
+          <div class="product-actions">
+            <button class="product-btn" onclick="contactWhatsApp(&#39;Crystal Table Lamp&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Bomba</font></font></button>
+            <button class="product-btn-outline"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">♡</font></font></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- WALL SCONCES -->
+      <div class="product-card" data-category="applique" onclick="openModal(&#39;sconce-1&#39;)">
+        <img src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/sconce1.jpg" alt="Lampadario Murano - Cristalux Royale" loading="lazy">
+        <div class="product-overlay">
+          <span class="product-collection"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Applique da parete</font></font></span>
+          <h3 class="product-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Murano sinistra</font></font></h3>
+          <p class="product-details"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Vetro di Murano · Ottone · 2 luci</font></font></p>
+          <span class="product-price"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">€ 920</font></font></span>
+          <div class="product-actions">
+            <button class="product-btn" onclick="contactWhatsApp(&#39;Applique Murano&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Bomba</font></font></button>
+            <button class="product-btn-outline"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">♡</font></font></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- SPARE PARTS -->
+      <div class="product-card" data-category="ricambi" onclick="openModal(&#39;spare-crystals&#39;)">
+        <img src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/spare-crystals.jpg" alt="Ricambi per cristalli - Cristalux Royale" loading="lazy">
+        <div class="product-overlay">
+          <span class="product-collection"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Pezzi di ricambio</font></font></span>
+          <h3 class="product-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Kit di sostituzione cristalli</font></font></h3>
+          <p class="product-details"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Cristalli tagliati a mano · Varie dimensioni</font></font></p>
+          <span class="product-price"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">€ 150 - 450</font></font></span>
+          <div class="product-actions">
+            <button class="product-btn" onclick="contactWhatsApp(&#39;Crystal Spare Parts&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Bomba</font></font></button>
+            <button class="product-btn-outline"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">♡</font></font></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- ELECTRICAL SYSTEMS -->
+      <div class="product-card" data-category="impianto" onclick="openModal(&#39;electrical-kit&#39;)">
+        <img src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/electrical-kit.jpg" alt="Impianto elettrico - Cristalux Royale" loading="lazy">
+        <div class="product-overlay">
+          <span class="product-collection"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Sistemi elettrici</font></font></span>
+          <h3 class="product-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Kit di cablaggio professionale</font></font></h3>
+          <p class="product-details"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Pacchetto di installazione completo · Norma UE</font></font></p>
+          <span class="product-price"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">€ 280 - 650</font></font></span>
+          <div class="product-actions">
+            <button class="product-btn" onclick="contactWhatsApp(&#39;Electrical System&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Bomba</font></font></button>
+            <button class="product-btn-outline"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">♡</font></font></button>
+          </div>
+        </div>
+      </div>
+
+      <!-- RESTORATION SERVICE --><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+&gt;
+        </font></font></div>
+      </div>
+
+      
+
+    
+  </section>
+
+  <!-- COLLECTIONS -->
+  <section id="collezioni">
+    <div class="section-header fade-in">
+      <span class="section-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Le nostre linee</font></font></span>
+      <h2 class="section-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Le </font></font><em><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">collezioni</font></font></em></h2>
+      <div class="section-line"></div>
+      <p class="section-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Tre anime distinte, un'unica filosofia: l'eccellenza artigianale fiorentina al servizio della bellezza.</font></font></p>
+    </div>
+    <div class="collezioni-grid fade-in">
+      <div class="collezione-card">
+        <span class="collezione-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">✨</font></font></span>
+        <h3 class="collezione-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">SuperClassico</font></font></h3>
+        <p class="collezione-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Un'ode alla natura: lampadari in ferro battuto con cristalli incastonati a mano, foglie e fiori in metallo lavorato. La collezione più iconica di Cristalux Royale, simbolo di raffinatezza senza tempo.</font></font></p>
+        <span class="collezione-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ferro · Cristalli · Natura</font></font></span>
+      </div>
+      <div class="collezione-card">
+        <span class="collezione-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">🔮</font></font></span>
+        <h3 class="collezione-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Vetro di Murano</font></font></h3>
+        <p class="collezione-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">La tradizione vetraria veneziana incontra l'artigianato fiorentino. Lampadari in vetro di Murano soffiato a mano, con fiori, foglie e pendenti in vetro colorato che creano straordinari giochi di luce.</font></font></p>
+        <span class="collezione-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Murano · Vetro soffiato · Colore</font></font></span>
+      </div>
+      <div class="collezione-card">
+        <span class="collezione-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">👑</font></font></span>
+        <h3 class="collezione-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Grand Classique</font></font></h3>
+        <p class="collezione-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Il classicismo europeo reinterpretato con eleganza. Ottone dorato, bronzo patinato e cristalli Swarovski per interni di altissimo prestigio: ville, palazzi, hotel di lusso.</font></font></p>
+        <span class="collezione-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ottone · Bronzo · Swarovski</font></font></span>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARKET & STRATEGY -->
+  <section id="strategia">
+    <div class="section-header fade-in">
+      <span class="section-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Analisi e strategia</font></font></span>
+      <h2 class="section-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Dove e come </font></font><em><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">vendere</font></font></em></h2>
+      <div class="section-line"></div>
+      <p class="section-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Una guida completa ai canali di vendita e alla strategia di marketing per massimizzare la visibilità e le vendite dei lampadari Cristalux Royale nel mercato globale del lusso.</font></font></p>
+    </div>
+
+    <div class="strategia-container">
+      <div class="strategia-tabs fade-in">
+        <button class="tab-btn active" onclick="showTab(&#39;mercato&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">📊 Mercato globale</font></font></button>
+        <button class="tab-btn" onclick="showTab(&#39;canali&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">🛒 Canali di vendita</font></font></button>
+        <button class="tab-btn" onclick="showTab(&#39;marketing&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">📣 Strategia di marketing</font></font></button>
+        <button class="tab-btn" onclick="showTab(&#39;seo&#39;)"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">🔍 SEO ​​e Digital</font></font></button>
+      </div>
+
+      <!-- TAB: MARKET -->
+      <div class="tab-content active" id="tab-mercato">
+        <div class="charts-grid fade-in">
+          <div class="chart-card">
+            <h3 class="chart-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Mercato globale dell'illuminazione di lusso</font></font></h3>
+            <p class="chart-subtitle"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Previsioni 2025-2030 (miliardi di dollari USA)</font></font></p>
+            <div class="chart-wrapper">
+              <canvas id="marketChart" style="display: block; box-sizing: border-box; height: 300px; width: 484.5px;" width="484" height="300"></canvas>
+            </div>
+          </div>
+          <div class="chart-card">
+            <h3 class="chart-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Distribuzione del mercato per regione</font></font></h3>
+            <p class="chart-subtitle"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Quota di mercato globale nel 2025</font></font></p>
+            <div class="chart-wrapper">
+              <canvas id="regionChart" style="display: block; box-sizing: border-box; height: 300px; width: 484.5px;" width="484" height="300"></canvas>
+            </div>
+          </div>
+          <div class="chart-card">
+            <h3 class="chart-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Prezzi medi di Cristalux Royale</font></font></h3>
+            <p class="chart-subtitle"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Fascia di prezzo per collezione (€)</font></font></p>
+            <div class="chart-wrapper">
+              <canvas id="priceChart" style="display: block; box-sizing: border-box; height: 300px; width: 484.5px;" width="484" height="300"></canvas>
+            </div>
+          </div>
+          <div class="chart-card">
+            <h3 class="chart-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Canali di vendita: efficacia</font></font></h3>
+            <p class="chart-subtitle"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Punteggio di prestazione per canale (0–100)</font></font></p>
+            <div class="chart-wrapper">
+              <canvas id="channelChart" style="display: block; box-sizing: border-box; height: 300px; width: 484.5px;" width="484" height="300"></canvas>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB: CHANNELS -->
+      <div class="tab-content" id="tab-canali">
+        <div class="canali-grid fade-in">
+          <div class="canale-card">
+            <div class="canale-header">
+              <div class="canale-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">💎</font></font></div>
+              <div>
+                <div class="canale-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">1stDibs</font></font></div>
+                <div class="canale-type"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Mercato Premium</font></font></div>
+              </div>
+            </div>
+            <p class="canale-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Il mercato più prestigioso al mondo per oggetti di lusso vintage e contemporanei. Clientela con patrimoni elevatissimi proveniente da Stati Uniti, Europa e Medio Oriente. Prezzi medi: da 800 a 21.000 dollari.</font></font></p>
+            <div class="canale-rating">
+              <span style="font-size:0.63rem;color:var(--text-muted);min-width:80px"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Potenziale</font></font></span>
+              <div class="rating-bar"><div class="rating-fill" style="width:95%"></div></div>
+              <span class="rating-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">95%</font></font></span>
+            </div>
+          </div>
+          <div class="canale-card">
+            <div class="canale-header">
+              <div class="canale-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">🎨</font></font></div>
+              <div>
+                <div class="canale-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Pamono</font></font></div>
+                <div class="canale-type"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Design vintage</font></font></div>
+              </div>
+            </div>
+            <p class="canale-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Piattaforma europea specializzata in oggetti vintage e di design. Forte presenza di acquirenti tedeschi, francesi e scandinavi. Ideale per pezzi vintage dagli anni '60 agli anni '90. Commissioni competitive.</font></font></p>
+            <div class="canale-rating">
+              <span style="font-size:0.63rem;color:var(--text-muted);min-width:80px"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Potenziale</font></font></span>
+              <div class="rating-bar"><div class="rating-fill" style="width:85%"></div></div>
+              <span class="rating-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">85%</font></font></span>
+            </div>
+          </div>
+          <div class="canale-card">
+            <div class="canale-header">
+              <div class="canale-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">🏛️</font></font></div>
+              <div>
+                <div class="canale-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Sito web personale</font></font></div>
+                <div class="canale-type"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Commercio elettronico diretto</font></font></div>
+              </div>
+            </div>
+            <p class="canale-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Massimo controllo su brand, prezzi ed esperienza cliente. Zero commissioni. Ideale per nuove collezioni e capi su misura. Richiede investimenti in SEO e marketing digitale.</font></font></p>
+            <div class="canale-rating">
+              <span style="font-size:0.63rem;color:var(--text-muted);min-width:80px"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Potenziale</font></font></span>
+              <div class="rating-bar"><div class="rating-fill" style="width:90%"></div></div>
+              <span class="rating-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">90%</font></font></span>
+            </div>
+          </div>
+          <div class="canale-card">
+            <div class="canale-header">
+              <div class="canale-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">🏪</font></font></div>
+              <div>
+                <div class="canale-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Profondo</font></font></div>
+                <div class="canale-type"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Design italiano</font></font></div>
+              </div>
+            </div>
+            <p class="canale-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Marketplace italiano per il design iconico. Pubblico di intenditori e professionisti del settore. Ideale per il mercato italiano e per raggiungere architetti e interior designer di lusso.</font></font></p>
+            <div class="canale-rating">
+              <span style="font-size:0.63rem;color:var(--text-muted);min-width:80px"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Potenziale</font></font></span>
+              <div class="rating-bar"><div class="rating-fill" style="width:72%"></div></div>
+              <span class="rating-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">72%</font></font></span>
+            </div>
+          </div>
+          <div class="canale-card">
+            <div class="canale-header">
+              <div class="canale-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">🤝</font></font></div>
+              <div>
+                <div class="canale-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Progettisti d'interni</font></font></div>
+                <div class="canale-type"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Partnership B2B</font></font></div>
+              </div>
+            </div>
+            <p class="canale-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Collaborazioni dirette con studi di interior design di lusso in Italia, Emirati Arabi Uniti, Stati Uniti e Regno Unito. Programma di rivendita con sconti dedicati. I designer sono i principali responsabili delle decisioni di acquisto per l'illuminazione di lusso.</font></font></p>
+            <div class="canale-rating">
+              <span style="font-size:0.63rem;color:var(--text-muted);min-width:80px"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Potenziale</font></font></span>
+              <div class="rating-bar"><div class="rating-fill" style="width:88%"></div></div>
+              <span class="rating-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">88%</font></font></span>
+            </div>
+          </div>
+          <div class="canale-card">
+            <div class="canale-header">
+              <div class="canale-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">🏨</font></font></div>
+              <div>
+                <div class="canale-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Hotel e ospitalità</font></font></div>
+                <div class="canale-type"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Contratto B2B</font></font></div>
+              </div>
+            </div>
+            <p class="canale-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Hotel a 5 stelle, resort di lusso, yacht e jet privati. Ordini di grandi volumi con personalizzazioni. Mercati principali: Dubai, Monaco, New York, Londra. Richiede la presenza alle fiere di settore.</font></font></p>
+            <div class="canale-rating">
+              <span style="font-size:0.63rem;color:var(--text-muted);min-width:80px"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Potenziale</font></font></span>
+              <div class="rating-bar"><div class="rating-fill" style="width:80%"></div></div>
+              <span class="rating-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">80%</font></font></span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB: MARKETING -->
+      <div class="tab-content" id="tab-marketing">
+        <div class="marketing-steps fade-in">
+          <div class="step-card">
+            <span class="step-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">01</font></font></span>
+            <div class="step-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">📸</font></font></div>
+            <h3 class="step-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Narrazione visiva di lusso</font></font></h3>
+            <p class="step-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Investite in fotografie professionali di altissimo livello: ogni lampadario fotografato in ambienti di lusso autentici. Video cinematografici che mostrano il processo artigianale. I contenuti visivi sono il cuore del marketing del lusso.</font></font></p>
+            <div class="step-tags">
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Fotografia</font></font></span>
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Video</font></font></span>
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Dietro le quinte</font></font></span>
+            </div>
+          </div>
+          <div class="step-card">
+            <span class="step-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">02</font></font></span>
+            <div class="step-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">📱</font></font></div>
+            <h3 class="step-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Social media di lusso</font></font></h3>
+            <p class="step-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Instagram e Pinterest sono i canali principali per l'illuminazione di lusso. Profilo curato con un'estetica coerente, post di alta qualità e Reels che mostrano il processo artigianale. Collaborazioni con influencer di interior design di lusso (da 100.000 a 1 milione di follower).</font></font></p>
+            <div class="step-tags">
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Instagram</font></font></span>
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Pinterest</font></font></span>
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">TikTok</font></font></span>
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Influencer</font></font></span>
+            </div>
+          </div>
+          <div class="step-card">
+            <span class="step-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">03</font></font></span>
+            <div class="step-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">🏛️</font></font></div>
+            <h3 class="step-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Fiere e showroom</font></font></h3>
+            <p class="step-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Presenza obbligatoria a Euroluce (Salone del Mobile, Milano), Maison&amp;Objet (Parigi), Design Miami. Showroom fisico nel centro storico di Firenze. Partecipazione ad aste per i pezzi più pregiati.</font></font></p>
+            <div class="step-tags">
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Euroluce</font></font></span>
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Salone del Mobile</font></font></span>
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Maison&amp;Oggetto</font></font></span>
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Sotheby's</font></font></span>
+            </div>
+          </div>
+          <div class="step-card">
+            <span class="step-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">04</font></font></span>
+            <div class="step-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">✉️</font></font></div>
+            <h3 class="step-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Email Marketing e CRM</font></font></h3>
+            <p class="step-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Newsletter mensile con nuove collezioni, storie di artigiani e progetti completati. Segmentazione del database: collezionisti, interior designer, hotel. Inviti esclusivi a eventi privati ​​e anteprime delle collezioni.</font></font></p>
+            <div class="step-tags">
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Newsletter</font></font></span>
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CRM</font></font></span>
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Segmentazione</font></font></span>
+              <span class="step-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Eventi VIP</font></font></span>
+            </div>
+          </div>
+          <div class="step-card">
+            <span class="step-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">05</font></font></span>
+            <div class="step-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">🌐</font></font></div>
+            <h3 class="step-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">PR e media di lusso</font></font></h3>
+            <p class="step-desc">Collaborations with luxury interior design publications: AD, Elle Décor, Wallpaper*, Casa Vogue. Editorial articles, product features, interviews with master artisans.</p>
+            <div class="step-tags">
+              <span class="step-tag">Architectural Digest</span>
+              <span class="step-tag">Elle Décor</span>
+              <span class="step-tag">Casa Vogue</span>
+              <span class="step-tag">PR</span>
+            </div>
+          </div>
+          <div class="step-card">
+            <span class="step-number">06</span>
+            <div class="step-icon">🎯</div>
+            <h3 class="step-title">Targeted Advertising</h3>
+            <p class="step-desc">Google Ads for high-intent keywords. Meta Ads with luxury, interior design, architecture targeting. Pinterest Ads for luxury renovation planners. Budget concentrated on key markets: USA, UAE, UK, Germany.</p>
+            <div class="step-tags">
+              <span class="step-tag">Google Ads</span>
+              <span class="step-tag">Meta Ads</span>
+              <span class="step-tag">Pinterest Ads</span>
+              <span class="step-tag">Retargeting</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- TAB: SEO -->
+      <div class="tab-content" id="tab-seo">
+        <div class="marketing-steps fade-in">
+          <div class="step-card">
+            <span class="step-number">01</span>
+            <div class="step-icon">🔑</div>
+            <h3 class="step-title">Luxury Keyword Strategy</h3>
+            <p class="step-desc">Focus on long-tail, high-intent, low-competition keywords: "luxury chandeliers Florence handmade", "Cristalux Royale chandelier". Luxury keywords have low volume but extremely high conversion.</p>
+            <div class="step-tags">
+              <span class="step-tag">Long-tail Keywords</span>
+              <span class="step-tag">Brand Keywords</span>
+              <span class="step-tag">Multilingual SEO</span>
+            </div>
+          </div>
+          <div class="step-card">
+            <span class="step-number">02</span>
+            <div class="step-icon">📝</div>
+            <h3 class="step-title">Content Marketing</h3>
+            <p class="step-desc">Blog with in-depth articles: "How to Choose a Luxury Chandelier", "History of Florentine Wrought Iron". Guides for interior designers. Content that positions the brand as an authority.</p>
+            <div class="step-tags">
+              <span class="step-tag">Blog</span>
+              <span class="step-tag">Guides</span>
+              <span class="step-tag">Storytelling</span>
+            </div>
+          </div>
+          <div class="step-card">
+            <span class="step-number">03</span>
+            <div class="step-icon">🔗</div>
+            <h3 class="step-title">Premium Link Building</h3>
+            <p class="step-desc">Obtain backlinks from luxury and design sites: AD, Elle Décor, international design blogs. Guest posts on industry publications. Partnerships with cultural institutions and museums.</p>
+            <div class="step-tags">
+              <span class="step-tag">Backlinks</span>
+              <span class="step-tag">Guest Posts</span>
+              <span class="step-tag">Digital PR</span>
+            </div>
+          </div>
+          <div class="step-card">
+            <span class="step-number">04</span>
+            <div class="step-icon">🌍</div>
+            <h3 class="step-title">International SEO</h3>
+            <p class="step-desc">Multilingual site (Italian, English, French, German, Arabic). Hreflang tags for each language version. Optimized Google My Business. Schema markup for products and reviews.</p>
+            <div class="step-tags">
+              <span class="step-tag">Multilingual</span>
+              <span class="step-tag">Hreflang</span>
+              <span class="step-tag">Schema Markup</span>
+              <span class="step-tag">Local SEO</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section id="recensioni">
+    <div class="section-header fade-in">
+      <span class="section-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Testimonianze</font></font></span>
+      <h2 class="section-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Cosa </font><font dir="auto" style="vertical-align: inherit;">dicono i nostri </font></font><em><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">clienti</font></font></em><font dir="auto" style="vertical-align: inherit;"></font></h2>
+      <div class="section-line"></div>
+    </div>
+
+    <div class="recensioni-header-stats fade-in">
+      <div class="review-stat">
+        <span class="review-stat-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">4.9</font></font></span>
+        <div class="stars"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">★★★★★</font></font></div>
+        <span class="review-stat-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Valutazione media</font></font></span>
+      </div>
+      <div class="review-stat">
+        <span class="review-stat-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">847</font></font></span>
+        <span class="review-stat-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Recensioni totali</font></font></span>
+      </div>
+      <div class="review-stat">
+        <span class="review-stat-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">98%</font></font></span>
+        <span class="review-stat-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Clienti soddisfatti</font></font></span>
+      </div>
+      <div class="review-stat">
+        <span class="review-stat-number"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">60+</font></font></span>
+        <span class="review-stat-label"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Paesi serviti</font></font></span>
+      </div>
+    </div>
+
+    <div class="recensioni-grid fade-in">
+      <div class="review-card">
+        <div class="review-quote"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">"</font></font></div>
+        <p class="review-text"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Un capolavoro assoluto. Il lampadario SuperClassic Flora ha trasformato il nostro salone in qualcosa di straordinario. Ogni cristallo è posizionato con meticolosa cura. Un'opera d'arte che illumina.</font></font></p>
+        <div class="review-author">
+          <div class="review-avatar"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">MA</font></font></div>
+          <div>
+            <div class="review-author-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Marco A.</font></font></div>
+            <div class="review-author-location"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Milano, Italia</font></font></div>
+            <div class="review-product"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">SuperClassic Flora Dorata</font></font></div>
+          </div>
+          <div class="stars" style="margin-left:auto;font-size:0.8rem"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">★★★★★</font></font></div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-quote"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">"</font></font></div>
+        <p class="review-text"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Abbiamo acquistato tre lampadari per il nostro attico a New York. La maestria artigianale è assolutamente ineguagliabile. Non si tratta di semplici apparecchi di illuminazione, ma di vere e proprie sculture che, per inciso, emettono luce.</font></font></p>
+        <div class="review-author">
+          <div class="review-avatar"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">SL</font></font></div>
+          <div>
+            <div class="review-author-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Sarah L.</font></font></div>
+            <div class="review-author-location"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">New York, Stati Uniti</font></font></div>
+            <div class="review-product"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Collezione Grand Classique</font></font></div>
+          </div>
+          <div class="stars" style="margin-left:auto;font-size:0.8rem"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">★★★★★</font></font></div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-quote"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">"</font></font></div>
+        <p class="review-text"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Abbiamo arredato il nostro hotel a 5 stelle a Parigi con questi lampadari. I nostri ospiti ne rimangono sempre entusiasti. La qualità dell'artigianato fiorentino è incomparabile. Altamente raccomandato.</font></font></p>
+        <div class="review-author">
+          <div class="review-avatar"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">PD</font></font></div>
+          <div>
+            <div class="review-author-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Pierre D.</font></font></div>
+            <div class="review-author-location"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Parigi, Francia</font></font></div>
+            <div class="review-product"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Murano Gold - Progetto Hotel</font></font></div>
+          </div>
+          <div class="stars" style="margin-left:auto;font-size:0.8rem"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">★★★★★</font></font></div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-quote"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">"</font></font></div>
+        <p class="review-text"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ho acquistato un lampadario vintage degli anni '70. La qualità è eccezionale, il ferro battuto è impeccabile. È diventato il pezzo forte della mia collezione. Assolutamente unico.</font></font></p>
+        <div class="review-author">
+          <div class="review-avatar"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">GR</font></font></div>
+          <div>
+            <div class="review-author-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Giulia R.</font></font></div>
+            <div class="review-author-location"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Roma, Italia</font></font></div>
+            <div class="review-product"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ferro battuto Vintage anni '70</font></font></div>
+          </div>
+          <div class="stars" style="margin-left:auto;font-size:0.8rem"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">★★★★★</font></font></div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-quote"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">"</font></font></div>
+        <p class="review-text"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">In qualità di interior designer, scelgo questi lampadari per i miei clienti più esigenti. La qualità, la tradizione e la pura bellezza sono ineguagliabili. I miei clienti se ne innamorano sempre.</font></font></p>
+        <div class="review-author">
+          <div class="review-avatar"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">JK</font></font></div>
+          <div>
+            <div class="review-author-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Giacomo K.</font></font></div>
+            <div class="review-author-location"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Londra, Regno Unito</font></font></div>
+            <div class="review-product"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Partner di interior design</font></font></div>
+          </div>
+          <div class="stars" style="margin-left:auto;font-size:0.8rem"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">★★★★★</font></font></div>
+        </div>
+      </div>
+
+      <div class="review-card">
+        <div class="review-quote"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">"</font></font></div>
+        <p class="review-text"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Abbiamo acquistato tre lampadari per il nostro palazzo a Dubai. La maestria artigianale è impareggiabile. Ogni pezzo è una vera opera d'arte che riflette un'antica tradizione. Qualità eccezionale.</font></font></p>
+        <div class="review-author">
+          <div class="review-avatar"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">AK</font></font></div>
+          <div>
+            <div class="review-author-name"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ahmed K.</font></font></div>
+            <div class="review-author-location"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Dubai, Emirati Arabi Uniti</font></font></div>
+            <div class="review-product"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">SuperClassico — Progetto Palazzo</font></font></div>
+          </div>
+          <div class="stars" style="margin-left:auto;font-size:0.8rem"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">★★★★★</font></font></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT -->
+  <section id="contatti">
+    <div class="section-header fade-in">
+      <span class="section-tag"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Parliamone</font></font></span>
+      <h2 class="section-title"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Contattaci per un </font></font><em><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">preventivo</font></font></em></h2>
+      <div class="section-line"></div>
+      <p class="section-desc"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ogni lampadario può essere personalizzato secondo le vostre specifiche. Contattateci per una consulenza gratuita e un preventivo dedicato.</font></font></p>
+    </div>
+    <div class="contatti-grid fade-in">
+      <div class="contatti-info">
+        <h3><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Siamo a Piatra Neamt, </font></font><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Romania — Cristal Lux Hub</font></font></h3>
+        <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Il nostro showroom di illuminazione di lusso è aperto su appuntamento a Piatra Neamt. Organizziamo visite private per clienti e interior designer. Spediamo in tutto il mondo con imballaggio professionale e assicurazione.</font></font></p>
+        <div class="contact-items">
+          <div class="contact-item">
+            <div class="contact-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">📍</font></font></div>
+            <div class="contact-detail">
+              <h4><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Showroom</font></font></h4>
+              <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Piatra Neamt, Romania </font></font><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Cristal Lux - Centro di illuminazione di lusso</font></font></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">💬</font></font></div>
+            <div class="contact-detail">
+              <h4><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Bomba</font></font></h4>
+              <p><a href="https://wa.me/40746590350?text=Hello%2C%20I%20am%20interested%20in%20your%20luxury%20chandeliers" target="_blank"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">+40 746 590 350</font></font></a><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;"> Disponibile 24 ore su 24, 7 giorni su 7</font></font></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">✉️</font></font></div>
+            <div class="contact-detail">
+              <h4><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">E-mail</font></font></h4>
+              <p><a href="mailto:crystaluxroyale@gmail.com"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">crystaluxroyale@gmail.com</font></font></a><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;"> Risposta entro 24 ore</font></font></p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">🌐</font></font></div>
+            <div class="contact-detail">
+              <h4><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Spedizione internazionale</font></font></h4>
+              <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Spediamo in oltre 60 paesi. </font></font><br><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Imballaggio professionale incluso.</font></font></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <form class="contatti-form" onsubmit="handleSubmit(event)">
+        <div class="form-row">
+          <div class="form-group">
+            <label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Nome di battesimo</font></font></label>
+            <input type="text" placeholder="Il tuo nome" required="">
+          </div>
+          <div class="form-group">
+            <label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Cognome</font></font></label>
+            <input type="text" placeholder="Il tuo cognome" required="">
+          </div>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">E-mail</font></font></label>
+            <input type="email" placeholder="email@example.com" required="">
+          </div>
+          <div class="form-group">
+            <label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Telefono</font></font></label>
+            <input type="tel" placeholder="+1 000 0000000">
+          </div>
+        </div>
+        <div class="form-group">
+          <label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Paese</font></font></label>
+          <input type="text" placeholder="USA, Emirati Arabi Uniti, Regno Unito...">
+        </div>
+        <div class="form-group">
+          <label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Categoria di prodotto</font></font></label>
+          <select>
+            <option value=""><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Seleziona una categoria...</font></font></option>
+            <option><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lampadari — SuperClassici</font></font></option>
+            <option><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lampadari in vetro di Murano</font></font></option>
+            <option><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lampadari – Grand Classique</font></font></option>
+            <option><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lampade da terra</font></font></option>
+            <option><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lampade da tavolo</font></font></option>
+            <option><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Applique da parete (applicazioni)</font></font></option>
+            <option><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ricambi Crystal</font></font></option>
+            <option><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Sistemi elettrici</font></font></option>
+            <option><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Servizio di restauro e assistenza</font></font></option>
+            <option><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Pezzo vintage/da collezione</font></font></option>
+            <option><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Commissione doganale</font></font></option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Messaggio</font></font></label>
+          <textarea placeholder="Descrivi il tuo progetto, le dimensioni della stanza, la fascia di budget..."></textarea>
+        </div>
+        <button type="submit" class="form-submit"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Invia richiesta</font></font></button>
+      </form>
+    </div>
+  </section>
+
+
+  <!-- SOCIAL PROOF & TRUST SECTION -->
+  <section id="trust-section" style="background:#0A0A0A; padding:80px 20px; border-top:1px solid #C4A747;">
+    <div class="container">
+      <h2 style="font-family:&#39;Cormorant Garamond&#39;; font-size:2.8rem; font-weight:300; color:#D4C5A0; text-align:center; margin-bottom:60px; letter-spacing:2px;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Perché i collezionisti scelgono Cristalux Royale</font></font></h2>
+      
+      <div style="display:grid; grid-template-columns:repeat(4, 1fr); gap:30px; margin-bottom:60px;">
+        <div style="text-align:center;">
+          <p style="font-size:2.5rem; color:#C4A747; margin:0 0 10px 0; font-weight:300;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">125+</font></font></p>
+          <p style="color:#8B7E6B; font-size:0.9rem; letter-spacing:1px;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">ANNI DI PATRIMONIO</font></font></p>
+        </div>
+        <div style="text-align:center;">
+          <p style="font-size:2.5rem; color:#C4A747; margin:0 0 10px 0; font-weight:300;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">60+</font></font></p>
+          <p style="color:#8B7E6B; font-size:0.9rem; letter-spacing:1px;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">PAESI SERVITI</font></font></p>
+        </div>
+        <div style="text-align:center;">
+          <p style="font-size:2.5rem; color:#C4A747; margin:0 0 10px 0; font-weight:300;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Oltre 5000</font></font></p>
+          <p style="color:#8B7E6B; font-size:0.9rem; letter-spacing:1px;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">PEZZI CREATI</font></font></p>
+        </div>
+        <div style="text-align:center;">
+          <p style="font-size:2.5rem; color:#C4A747; margin:0 0 10px 0; font-weight:300;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">⭐ 4.9</font></font></p>
+          <p style="color:#8B7E6B; font-size:0.9rem; letter-spacing:1px;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">VALUTAZIONE DEL COLLEZIONISTA</font></font></p>
+        </div>
+      </div>
+
+      <div style="background:#1A1A1A; padding:40px; border-radius:8px; border-left:4px solid #C4A747; margin-bottom:40px;">
+        <p style="color:#D4C5A0; font-size:1.1rem; line-height:1.8; margin:0; font-style:italic;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">
+          "I pezzi della collezione Cristalux Royale non sono semplici apparecchi di illuminazione, ma investimenti in bellezza, artigianalità e storia. Ogni lampadario racconta una storia di eccellenza artigianale fiorentina che abbraccia oltre un secolo."
+        </font></font></p>
+      </div>
+
+      <div style="display:grid; grid-template-columns:repeat(3, 1fr); gap:20px;">
+        <div style="background:#1A1A1A; padding:25px; border-radius:8px; border:1px solid #C4A747;">
+          <p style="color:#C4A747; font-size:0.85rem; font-weight:600; margin:0 0 12px 0; letter-spacing:1px;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">AUTENTICITÀ GARANTITA</font></font></p>
+          <p style="color:#8B7E6B; font-size:0.85rem; line-height:1.6; margin:0;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Ogni pezzo è accompagnato da una documentazione completa relativa all'origine, ai materiali e alla certificazione di lavorazione.</font></font></p>
+        </div>
+        <div style="background:#1A1A1A; padding:25px; border-radius:8px; border:1px solid #C4A747;">
+          <p style="color:#C4A747; font-size:0.85rem; font-weight:600; margin:0 0 12px 0; letter-spacing:1px;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CONSULENZA DI ESPERTI</font></font></p>
+          <p style="color:#8B7E6B; font-size:0.85rem; line-height:1.6; margin:0;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">I nostri specialisti offrono una consulenza personalizzata per aiutarvi a trovare il pezzo perfetto per il vostro spazio.</font></font></p>
+        </div>
+        <div style="background:#1A1A1A; padding:25px; border-radius:8px; border:1px solid #C4A747;">
+          <p style="color:#C4A747; font-size:0.85rem; font-weight:600; margin:0 0 12px 0; letter-spacing:1px;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">SPEDIZIONE SICURA IN TUTTO IL MONDO</font></font></p>
+          <p style="color:#8B7E6B; font-size:0.85rem; line-height:1.6; margin:0;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Gestione professionale e assicurazione per una consegna sicura al vostro domicilio.</font></font></p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+    <!-- FOOTER -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="logo"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">CRISTALUX ROYALE</font></font></div>
+        <div class="tagline"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Lampadari di lusso · Made in Italy · Artigianalità dal 1899</font></font></div>
+        <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Oltre 125 anni di tradizione artigianale fiorentina al servizio della bellezza. Ogni lampadario è un'opera d'arte unica, realizzata a mano nel cuore di Firenze.</font></font></p>
+      </div>
+      <div class="footer-col">
+        <h4><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Collezioni</font></font></h4>
+        <ul>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#catalogo"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">SuperClassico</font></font></a></li>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#catalogo"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Vetro di Murano</font></font></a></li>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#catalogo"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Grand Classique</font></font></a></li>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#catalogo"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Vintage e da collezione</font></font></a></li>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#contatti"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Commissione doganale</font></font></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Informazioni</font></font></h4>
+        <ul>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#storia"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Il nostro patrimonio</font></font></a></li>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#strategia"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Dove acquistare</font></font></a></li>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#recensioni"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Recensioni</font></font></a></li>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#contatti"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Contatto</font></font></a></li>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Spedizione</font></font></a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Mercato</font></font></h4>
+        <ul>
+          <li><a href="https://www.1stdibs.com/" target="_blank"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">1stDibs</font></font></a></li>
+          <li><a href="https://www.pamono.eu/" target="_blank"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Pamono</font></font></a></li>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Profondo</font></font></a></li>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Dollaro di lusso</font></font></a></li>
+          <li><a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">Selency</font></font></a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">© 2025 Cristalux Royale. Tutti i diritti riservati. Prodotto in Italia.</font></font></p>
+      <div class="footer-social">
+        <a href="https://wa.me/40746590350" class="social-link" target="_blank"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">WA</font></font></a>
+        <a href="mailto:crystaluxroyale@gmail.com" class="social-link" target="_blank"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">EM</font></font></a>
+        <a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#" class="social-link"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">IG</font></font></a>
+        <a href="https://8081-igbik042i9y5nki0e2b79-ec4665ca.us1.manus.computer/index-en.html#" class="social-link"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">FB</font></font></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- MODAL -->
+  <div class="modal-overlay" id="modalOverlay" onclick="closeModal(event)">
+    <div class="modal" id="modalContent">
+      <button class="modal-close" onclick="closeModalBtn()">✕</button>
+      <img class="modal-img" id="modalImg" src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/chandelier1.jpg" alt="Flora Dorata">
+      <div class="modal-body">
+        <div class="modal-collection" id="modalCollection">SuperClassic</div>
+        <h2 class="modal-title" id="modalTitle">Flora Dorata</h2>
+        <p class="modal-desc" id="modalDesc"></p>
+        <div class="modal-specs" id="modalSpecs">
+          <div style="background:#1A1A1A; padding:15px; border-radius:8px; border-left:3px solid #C4A747; margin:15px 0;">
+            <p style="color:#C4A747; font-size:0.85rem; margin:0 0 8px 0; font-weight:600;">SPECIFICATIONS</p>
+            <p style="color:#8B7E6B; font-size:0.8rem; margin:0; line-height:1.6;">All detailed specifications, dimensions, and materials are available in private consultation. Contact us for complete information.</p>
+          </div>
+        </div>
+
+    <div class="modal-gallery" id="modalGallery" style="margin-top:20px;">
+      <p style="color:#C4A747; font-size:0.85rem; margin:0 0 12px 0; font-weight:600;">GALLERY</p>
+      <div id="galleryContainer" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:8px; margin-bottom:15px;"></div>
+      <div style="background:#1A1A1A; padding:12px; border-radius:8px; border:1px dashed #C4A747; text-align:center; cursor:pointer;" onclick="document.getElementById(&#39;galleryUpload&#39;).click()">
+        <p style="color:#C4A747; font-size:0.8rem; margin:0;">+ Upload More Photos</p>
+      </div>
+      <input type="file" id="galleryUpload" multiple="" accept="image/*" style="display:none;" onchange="addGalleryPhotos(event)">
+    </div>
+
+                <div class="modal-actions">
+          <button class="btn-primary" onclick="contactWhatsApp(document.getElementById(&#39;modalTitle&#39;).textContent)">WhatsApp</button>
+          <button class="btn-secondary" onclick="closeModalBtn()">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    // WhatsApp Contact
+    function contactWhatsApp(productName) {
+      const message = `Hello! I'm interested in the "${productName}" chandelier. Could you send me more information and a quote?`;
+      const whatsappUrl = `https://wa.me/40746590350?text=${encodeURIComponent(message)}`;
+      window.open(whatsappUrl, '_blank');
+    }
+
+    // ===== PRODUCTS DATA =====
+    const products = {
+      'superclassic-flora': {
+        img: 'images/chandelier1.jpg',
+        collection: 'SuperClassic',
+        name: 'Flora Dorata',
+        price: '€ 3.800',
+        desc: 'A masterpiece of the SuperClassic collection. Handcrafted entirely by Florentine master artisans, this wrought iron chandelier is decorated with gilt metal leaves and flowers and hand-cut crystals. Each piece is unique and certified.',
+        specs: [
+          ['Material', 'Wrought Iron, Crystals'],
+          ['Finish', '24K Gold Leaf'],
+          ['Lights', '6 E14 Sockets'],
+          ['Height', '65 cm'],
+          ['Diameter', '55 cm'],
+          ['Year', 'Production 2024'],
+          ['Origin', 'Florence, Italy'],
+          ['Certification', 'Made in Italy']
+        ]
+      },
+      'imperiale': {
+        img: 'images/chandelier2.jpg',
+        collection: 'Classic',
+        name: 'Imperiale',
+        price: '€ 2.400',
+        desc: 'Classic elegance in gilt brass with hanging crystals. The Imperiale chandelier evokes the great European residences of the 18th century, reinterpreted with Florentine artisanal mastery. Perfect for grand halls, dining rooms and reception areas.',
+        specs: [
+          ['Material', 'Gilt Brass, Crystals'],
+          ['Finish', 'Polished Gold'],
+          ['Lights', '5 E14 Sockets'],
+          ['Height', '58 cm'],
+          ['Diameter', '50 cm'],
+          ['Year', 'Production 2023'],
+          ['Origin', 'Florence, Italy'],
+          ['Style', 'European Classic']
+        ]
+      },
+      'ramo-cristallo': {
+        img: 'images/chandelier3.jpg',
+        collection: 'SuperClassic',
+        name: 'Ramo di Cristallo',
+        price: '€ 5.200',
+        desc: 'The absolute bestseller of the SuperClassic collection. Gilt iron branches intertwine in an organic, natural structure, adorned with hand-cut crystals that capture and reflect light extraordinarily. An iconic piece of Cristalux Royale production.',
+        specs: [
+          ['Material', 'Gilt Iron, Cut Crystals'],
+          ['Finish', 'Antique Gold'],
+          ['Lights', '8 E14 Sockets'],
+          ['Height', '80 cm'],
+          ['Diameter', '70 cm'],
+          ['Year', 'Production 2024'],
+          ['Origin', 'Florence, Italy'],
+          ['Certification', 'Numbered Piece']
+        ]
+      },
+      'grande-toscano': {
+        img: 'images/chandelier4.jpg',
+        collection: 'Wrought Iron',
+        name: 'Grande Toscano',
+        price: '€ 7.500',
+        desc: 'A monument to Tuscan craftsmanship. The Grande Toscano is an imposing wrought iron chandelier with gold leaf, designed for spaces of great prestige: villas, palaces, luxury hotels. Each element is forged and decorated by hand by our master smiths.',
+        specs: [
+          ['Material', 'Wrought Iron, Gold Leaf'],
+          ['Finish', '22K Gold Leaf'],
+          ['Lights', '12 E27 Sockets'],
+          ['Height', '120 cm'],
+          ['Diameter', '100 cm'],
+          ['Year', 'Production 2024'],
+          ['Origin', 'Florence, Italy'],
+          ['Destination', 'Grand Spaces']
+        ]
+      },
+      'rinascimento': {
+        img: 'images/chandelier5.jpg',
+        collection: 'Wrought Iron',
+        name: 'Rinascimento',
+        price: '€ 4.600',
+        desc: 'Inspired by Florentine Renaissance art, this wrought iron chandelier with hanging crystals is a tribute to the great artistic tradition of Florence. The iron structure is worked using techniques passed down through generations of artisans.',
+        specs: [
+          ['Material', 'Wrought Iron, Crystals'],
+          ['Finish', 'Burnished Iron, Gold'],
+          ['Lights', '8 E14 Sockets'],
+          ['Height', '90 cm'],
+          ['Diameter', '75 cm'],
+          ['Year', 'Production 2023'],
+          ['Origin', 'Florence, Italy'],
+          ['Style', 'Renaissance']
+        ]
+      },
+      'murano-gold': {
+        img: 'images/chandelier6.jpg',
+        collection: 'Murano Glass',
+        name: 'Murano Gold',
+        price: '€ 9.800',
+        desc: 'A rare and extraordinarily valuable piece: Venetian Murano glass tradition meets Cristalux Royale Florentine craftsmanship. Each glass element is hand-blown by Murano master glassmakers. Available in limited numbered edition.',
+        specs: [
+          ['Material', 'Murano Glass, Brass'],
+          ['Finish', 'Gold, Amber, Ivory'],
+          ['Lights', '10 E14 Sockets'],
+          ['Height', '85 cm'],
+          ['Diameter', '80 cm'],
+          ['Year', 'Limited Edition 2024'],
+          ['Origin', 'Florence + Murano, Italy'],
+          ['Edition', 'Numbered 1/50']
+        ]
+      }
+    };
+
+    // ===== MODAL =====
+    function openModal(id) {
+      const p = products[id];
+      if (!p) return;
+      document.getElementById('modalImg').src = p.img;
+      document.getElementById('modalImg').alt = p.name;
+      document.getElementById('modalCollection').textContent = p.collection;
+      document.getElementById('modalTitle').textContent = p.name;
+      document.getElementById('modalPrice').textContent = p.price;
+      document.getElementById('modalDesc').textContent = p.desc;
+      const specsHtml = p.specs.map(s => `
+        <div class="spec-item">
+          <div class="spec-label">${s[0]}</div>
+          <div class="spec-value">${s[1]}</div>
+        </div>
+      `).join('');
+      document.getElementById('modalSpecs').innerHTML = specsHtml;
+      document.getElementById('modalOverlay').classList.add('open');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeModal(e) {
+      if (e.target === document.getElementById('modalOverlay')) closeModalBtn();
+    }
+
+    function closeModalBtn() {
+      document.getElementById('modalOverlay').classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    // ===== FILTER =====
+    function filterProducts(cat) {
+      document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+      event.target.classList.add('active');
+      document.querySelectorAll('.product-card').forEach(card => {
+        if (cat === 'tutti' || card.dataset.category === cat) {
+          card.style.display = 'block';
+        } else {
+          card.style.display = 'none';
+        }
+      });
+    }
+
+    // ===== TABS =====
+    function showTab(id) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+      event.target.classList.add('active');
+      document.getElementById('tab-' + id).classList.add('active');
+    }
+
+    // ===== FORM =====
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('.form-submit');
+      btn.textContent = '✓ Request Sent!';
+      btn.style.background = '#2D7A4F';
+      setTimeout(() => {
+        btn.textContent = 'Send Request';
+        btn.style.background = '';
+        e.target.reset();
+      }, 3000);
+    }
+
+    // ===== SCROLL ANIMATIONS =====
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.1 });
+
+    document.querySelectorAll('.fade-in').forEach(el => observer.observe(el));
+
+    // ===== CHARTS =====
+    const chartDefaults = {
+      color: 'rgba(232,213,163,0.7)',
+      borderColor: 'rgba(212,175,55,0.3)',
+      gridColor: 'rgba(212,175,55,0.08)',
+      goldColor: 'rgba(212,175,55,0.85)',
+      goldBorder: 'rgba(212,175,55,1)',
+    };
+
+    Chart.defaults.color = chartDefaults.color;
+    Chart.defaults.borderColor = chartDefaults.borderColor;
+
+    // Market Growth Chart
+    const ctx1 = document.getElementById('marketChart').getContext('2d');
+    new Chart(ctx1, {
+      type: 'line',
+      data: {
+        labels: ['2021', '2022', '2023', '2024', '2025', '2026', '2027', '2028', '2029', '2030'],
+        datasets: [{
+          label: 'Global Market (Billion USD)',
+          data: [3.1, 3.4, 3.7, 4.1, 4.8, 5.3, 5.9, 6.6, 7.3, 8.1],
+          borderColor: chartDefaults.goldBorder,
+          backgroundColor: 'rgba(212,175,55,0.08)',
+          borderWidth: 2,
+          pointBackgroundColor: chartDefaults.goldBorder,
+          pointRadius: 4,
+          fill: true,
+          tension: 0.4,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#1A1A1A',
+            borderColor: 'rgba(212,175,55,0.4)',
+            borderWidth: 1,
+            titleColor: '#D4AF37',
+            bodyColor: '#E8E0D0',
+            callbacks: {
+              label: ctx => ` $ ${ctx.raw} Billion`
+            }
+          }
+        },
+        scales: {
+          x: { grid: { color: chartDefaults.gridColor } },
+          y: { grid: { color: chartDefaults.gridColor }, ticks: { callback: v => '$' + v + 'B' } }
+        }
+      }
+    });
+
+    // Region Chart
+    const ctx2 = document.getElementById('regionChart').getContext('2d');
+    new Chart(ctx2, {
+      type: 'doughnut',
+      data: {
+        labels: ['North America', 'Europe', 'Middle East', 'Asia Pacific', 'Rest of World'],
+        datasets: [{
+          data: [32, 28, 18, 15, 7],
+          backgroundColor: [
+            'rgba(212,175,55,0.85)',
+            'rgba(212,175,55,0.65)',
+            'rgba(212,175,55,0.45)',
+            'rgba(212,175,55,0.3)',
+            'rgba(212,175,55,0.15)',
+          ],
+          borderColor: '#0F0F0F',
+          borderWidth: 3,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            position: 'bottom',
+            labels: { padding: 16, font: { size: 11 } }
+          },
+          tooltip: {
+            backgroundColor: '#1A1A1A',
+            borderColor: 'rgba(212,175,55,0.4)',
+            borderWidth: 1,
+            titleColor: '#D4AF37',
+            bodyColor: '#E8E0D0',
+            callbacks: { label: ctx => ` ${ctx.label}: ${ctx.raw}%` }
+          }
+        }
+      }
+    });
+
+    // Price Chart
+    const ctx3 = document.getElementById('priceChart').getContext('2d');
+    new Chart(ctx3, {
+      type: 'bar',
+      data: {
+        labels: ['SuperClassic', 'Murano Glass', 'Grand Classique', 'Vintage', 'Custom'],
+        datasets: [
+          {
+            label: 'Min Price (€)',
+            data: [1800, 3500, 2200, 800, 5000],
+            backgroundColor: 'rgba(212,175,55,0.3)',
+            borderColor: 'rgba(212,175,55,0.6)',
+            borderWidth: 1,
+          },
+          {
+            label: 'Max Price (€)',
+            data: [8500, 15000, 12000, 21000, 50000],
+            backgroundColor: 'rgba(212,175,55,0.7)',
+            borderColor: chartDefaults.goldBorder,
+            borderWidth: 1,
+          }
+        ]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: {
+            position: 'bottom',
+            labels: { padding: 16, font: { size: 11 } }
+          },
+          tooltip: {
+            backgroundColor: '#1A1A1A',
+            borderColor: 'rgba(212,175,55,0.4)',
+            borderWidth: 1,
+            titleColor: '#D4AF37',
+            bodyColor: '#E8E0D0',
+            callbacks: { label: ctx => ` € ${ctx.raw.toLocaleString('it-IT')}` }
+          }
+        },
+        scales: {
+          x: { grid: { color: chartDefaults.gridColor } },
+          y: {
+            grid: { color: chartDefaults.gridColor },
+            ticks: { callback: v => '€' + (v >= 1000 ? (v/1000) + 'K' : v) }
+          }
+        }
+      }
+    });
+
+    // Channel Effectiveness Chart
+    const ctx4 = document.getElementById('channelChart').getContext('2d');
+    new Chart(ctx4, {
+      type: 'radar',
+      data: {
+        labels: ['1stDibs', 'Own Site', 'Designers', 'Pamono', 'Hotel B2B', 'Fairs', 'Social'],
+        datasets: [{
+          label: 'Channel Effectiveness',
+          data: [95, 90, 88, 85, 80, 78, 72],
+          backgroundColor: 'rgba(212,175,55,0.15)',
+          borderColor: chartDefaults.goldBorder,
+          borderWidth: 2,
+          pointBackgroundColor: chartDefaults.goldBorder,
+          pointRadius: 5,
+        }]
+      },
+      options: {
+        responsive: true,
+        maintainAspectRatio: false,
+        plugins: {
+          legend: { display: false },
+          tooltip: {
+            backgroundColor: '#1A1A1A',
+            borderColor: 'rgba(212,175,55,0.4)',
+            borderWidth: 1,
+            titleColor: '#D4AF37',
+            bodyColor: '#E8E0D0',
+          }
+        },
+        scales: {
+          r: {
+            grid: { color: 'rgba(212,175,55,0.1)' },
+            angleLines: { color: 'rgba(212,175,55,0.1)' },
+            pointLabels: { color: chartDefaults.color, font: { size: 11 } },
+            ticks: { display: false },
+            min: 0, max: 100,
+          }
+        }
+      }
+    });
+
+    // ===== NAVBAR SCROLL =====
+    window.addEventListener('scroll', () => {
+      const nav = document.getElementById('navbar');
+      if (window.scrollY > 80) {
+        nav.style.padding = '14px 80px';
+      } else {
+        nav.style.padding = '24px 80px';
+      }
+    });
+
+    // ===== ADMIN PANEL - FOTO UPLOAD =====
+    function toggleAdminPanel() {
+      const panel = document.getElementById('adminPanel');
+      panel.style.display = panel.style.display === 'none' ? 'block' : 'none';
+    }
+
+    function handlePhotoUpload(event) {
+      const files = event.target.files;
+      const uploadList = document.getElementById('uploadList');
+      uploadList.innerHTML = '';
+      
+      for (let file of files) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          const item = document.createElement('div');
+          item.style.cssText = 'margin-bottom:15px; padding:10px; background:#1A1A1A; border:1px solid #C4A747; border-radius:5px;';
+          item.innerHTML = `
+            <div style="color:#C4A747; font-weight:bold; margin-bottom:8px;">${file.name}</div>
+            <img src="${e.target.result}" style="max-width:100%; max-height:150px; border-radius:3px; margin-bottom:8px;" />
+            <div style="font-size:0.8rem; color:#A89A7E;">
+              <input type="text" placeholder="Rename to (e.g., chandelier1.jpg)" id="rename_${file.name}" style="width:100%; padding:5px; background:#1A1A1A; border:1px solid #C4A747; color:#E8E0D0; border-radius:3px; margin-bottom:5px;" />
+              <button onclick="savePhotoToServer('${file.name}', document.getElementById('rename_${file.name}').value)" style="width:100%; padding:8px; background:#C4A747; color:#000000; border:none; border-radius:3px; cursor:pointer; font-weight:bold;">Upload to Server</button>
+            </div>
+          `;
+          uploadList.appendChild(item);
+        };
+        reader.readAsDataURL(file);
+      }
+    }
+
+    function savePhotoToServer(originalName, newName) {
+      if (!newName) {
+        alert('Please enter a new filename');
+        return;
+      }
+      alert(`Photo ready to upload!\n\nFile: ${newName}\n\nSend this file to:\n📧 Email: crystaluxroyale@gmail.com\n📱 WhatsApp: +40 746 590 350\n\nWe will upload it to the server immediately!`);
+    }
+  </script>
+
+  <!-- ADMIN PANEL REMOVED -->
+  <div id="adminPanel" style="display:none !important;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+      <h3 style="color:#C4A747; font-family:&#39;Cormorant Garamond&#39;; font-size:1.3rem; margin:0;">Upload Photos</h3>
+      <button onclick="toggleAdminPanel()" style="background:none; border:none; color:#C4A747; font-size:1.5rem; cursor:pointer;">✕</button>
+    </div>
+    <div style="border-top:1px solid #D4AF37; padding-top:15px;">
+      <p style="color:#A89A7E; font-size:0.85rem; margin-bottom:10px;">Select photos to upload:</p>
+      <input type="file" id="photoInput" multiple="" accept="image/*" onchange="handlePhotoUpload(event)" style="width:100%; padding:8px; background:#1A1A1A; border:1px dashed #D4AF37; color:#E8E0D0; border-radius:5px; cursor:pointer;">
+      <div id="uploadList" style="margin-top:15px;"></div>
+      <div style="background:#1A1A1A; padding:10px; border-radius:5px; margin-top:15px; font-size:0.75rem; color:#A89A7E;">
+        <strong style="color:#C4A747;">📋 File Names Required:</strong>
+        <div style="margin-top:5px; line-height:1.6;">
+          chandelier1.jpg, chandelier2.jpg, chandelier3.jpg, chandelier4.jpg, chandelier5.jpg, chandelier6.jpg, floor-lamp1.jpg, table-lamp1.jpg, sconce1.jpg, spare-crystals.jpg, electrical-kit.jpg, restoration.jpg
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CHATBOT WIDGET -->
+  <div id="chatbotWidget" style="position:fixed; bottom:100px; right:20px; width:380px; background:#000000; border:2px solid #C4A747; border-radius:12px; padding:20px; z-index:4998; box-shadow:0 10px 40px rgba(0,0,0,0.8); max-height:500px; overflow-y:auto; display:none;">
+    <div style="display:flex; justify-content:space-between; align-items:center; margin-bottom:15px;">
+      <h3 style="color:#C4A747; font-family:&#39;Cormorant Garamond&#39;; font-size:1.2rem; margin:0;">Exclusive Appointment</h3>
+      <button onclick="toggleChatbot()" style="background:none; border:none; color:#C4A747; font-size:1.5rem; cursor:pointer;">X</button>
+    </div>
+    <div style="border-top:1px solid #D4AF37; padding-top:15px;">
+      <p style="color:#D4C5A0; font-size:0.9rem; margin-bottom:15px; line-height:1.6;">
+        <strong>Exclusive Access:</strong> Schedule a private consultation with our specialists. Limited availability for personalized viewings.
+      </p>
+      <div style="background:#1A1A1A; padding:12px; border-radius:8px; margin-bottom:15px; border-left:3px solid #D4AF37;">
+        <p style="color:#C4A747; font-size:0.85rem; margin:0; font-weight:600;">Schedule Your Call</p>
+        <p style="color:#8B7E6B; font-size:0.8rem; margin:8px 0 0 0;">Monday-Friday, 10 AM-6 PM (Rome Time)</p>
+      </div>
+      <div style="margin-bottom:12px;">
+        <label style="color:#A89A7E; font-size:0.8rem; display:block; margin-bottom:6px;">Your Name</label>
+        <input type="text" id="chatbotName" placeholder="Full name" style="width:100%; padding:10px; background:#1A1A1A; border:1px solid #C4A747; color:#E8E0D0; border-radius:5px; font-size:0.9rem;">
+      </div>
+      <div style="margin-bottom:12px;">
+        <label style="color:#A89A7E; font-size:0.8rem; display:block; margin-bottom:6px;">Email</label>
+        <input type="email" id="chatbotEmail" placeholder="your@email.com" style="width:100%; padding:10px; background:#1A1A1A; border:1px solid #C4A747; color:#E8E0D0; border-radius:5px; font-size:0.9rem;">
+      </div>
+      <div style="margin-bottom:15px;">
+        <label style="color:#A89A7E; font-size:0.8rem; display:block; margin-bottom:6px;">Interested In</label>
+        <select id="chatbotProduct" style="width:100%; padding:10px; background:#1A1A1A; border:1px solid #C4A747; color:#E8E0D0; border-radius:5px; font-size:0.9rem;">
+          <option value="">Select collection...</option>
+          <option>SuperClassic Collection</option>
+          <option>Murano Glass</option>
+          <option>Grand Classique</option>
+          <option>Custom Commission</option>
+        </select>
+      </div>
+      <button onclick="bookAppointment()" style="width:100%; padding:14px; background:#C4A747; color:#000000; border:none; border-radius:6px; cursor:pointer; font-weight:600; font-size:0.95rem; transition:all 0.3s; letter-spacing:1px; text-transform:uppercase; box-shadow:0 4px 12px rgba(196, 167, 71, 0.3);" onmouseover="this.style.background=&#39;#D4C5A0&#39;; this.style.boxShadow=&#39;0 6px 16px rgba(196, 167, 71, 0.5)&#39;;" onmouseout="this.style.background=&#39;#C4A747&#39;; this.style.boxShadow=&#39;0 4px 12px rgba(196, 167, 71, 0.3)&#39;;">📞 Schedule Call</button>
+      <p style="color:#8B7E6B; font-size:0.75rem; margin-top:12px; text-align:center;">
+        We will contact you via WhatsApp at +40 746 590 350
+      </p>
+    </div>
+  </div>
+
+  <button onclick="toggleChatbot()" style="position:fixed; bottom:90px; right:20px; width:60px; height:60px; background:#C4A747; border:none; border-radius:50%; cursor:pointer; font-size:1.8rem; display:flex; align-items:center; justify-content:center; box-shadow:0 5px 20px rgba(255,215,0,0.5); z-index:4998; transition:all 0.3s; animation: pulse 2s infinite;" onmouseover="this.style.background=&#39;#D4C5A0&#39;" onmouseout="this.style.background=&#39;#C4A747&#39;"><font dir="auto" style="vertical-align: inherit;"><font dir="auto" style="vertical-align: inherit;">💬</font></font></button>
+
+  <style>
+
+
+    .hero-3d-chandelier {
+      perspective: 1000px;
+      height: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 40px 0;
+    }
+
+    .hero-3d-chandelier img {
+      animation: rotate3d 8s infinite ease-in-out;
+      filter: drop-shadow(0 20px 40px rgba(230, 194, 0, 0.3));
+      max-width: 300px;
+      max-height: 350px;
+      object-fit: contain;
+    }
+
+        @keyframes pulse {
+      0%, 100% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+    }
+  </style>
+
+  <script>
+    function toggleChatbot() {
+      const chatbot = document.getElementById('chatbotWidget');
+      chatbot.style.display = chatbot.style.display === 'none' ? 'block' : 'none';
+    }
+
+    function bookAppointment() {
+      const name = document.getElementById('chatbotName').value;
+      const email = document.getElementById('chatbotEmail').value;
+      const product = document.getElementById('chatbotProduct').value;
+
+      if (!name || !email || !product) {
+        alert('Please fill in all fields');
+        return;
+      }
+
+      const message = `Hello! I would like to schedule an exclusive appointment.\n\nName: ${name}\nEmail: ${email}\nInterested in: ${product}\n\nPlease confirm the best time for a call.`;
+      const whatsappUrl = `https://wa.me/40746590350?text=${encodeURIComponent(message)}`;
+      
+      window.open(whatsappUrl, '_blank');
+      
+      document.getElementById('chatbotName').value = '';
+      document.getElementById('chatbotEmail').value = '';
+      document.getElementById('chatbotProduct').value = '';
+      
+      alert('Your appointment request has been sent via WhatsApp!');
+      toggleChatbot();
+    }
+
+    
+    function addGalleryPhotos(event) {
+      const files = event.target.files;
+      const container = document.getElementById('galleryContainer');
+      
+      for (let file of files) {
+        const reader = new FileReader();
+        reader.onload = function(e) {
+          const wrapper = document.createElement('div');
+          wrapper.style.cssText = 'position:relative; overflow:hidden; border-radius:6px; aspect-ratio:1;';
+          
+          const img = document.createElement('img');
+          img.src = e.target.result;
+          img.style.cssText = 'width:100%; height:100%; object-fit:cover; cursor:pointer; border:2px solid #C4A747; transition:all 0.4s ease; display:block;';
+          
+          img.onmouseover = function() { 
+            this.style.transform = 'scale(1.08)'; 
+            this.style.filter = 'brightness(1.2)';
+          };
+          img.onmouseout = function() { 
+            this.style.transform = 'scale(1)'; 
+            this.style.filter = 'brightness(1)';
+          };
+          img.onclick = function() { viewFullImage(e.target.result); };
+          
+          wrapper.appendChild(img);
+          container.appendChild(wrapper);
+        };
+        reader.readAsDataURL(file);
+      }
+    }
+
+    function viewFullImage(src) {
+      const fullImageModal = document.createElement('div');
+      fullImageModal.style.cssText = 'position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.98); display:flex; align-items:center; justify-content:center; z-index:6000; cursor:pointer; animation: fadeIn 0.3s ease-in-out;';
+      fullImageModal.onclick = function() { fullImageModal.remove(); };
+      
+      const container = document.createElement('div');
+      container.style.cssText = 'position:relative; width:95%; height:95%; display:flex; align-items:center; justify-content:center;';
+      
+      const img = document.createElement('img');
+      img.src = src;
+      img.style.cssText = 'max-width:100%; max-height:100%; object-fit:contain; border-radius:4px; box-shadow:0 20px 60px rgba(0,0,0,0.8);';
+      
+      const closeBtn = document.createElement('button');
+      closeBtn.textContent = '✕';
+      closeBtn.style.cssText = 'position:absolute; top:20px; right:20px; background:#C4A747; color:#000000; border:none; width:45px; height:45px; border-radius:50%; cursor:pointer; font-size:1.3rem; font-weight:bold; transition:all 0.3s; box-shadow:0 4px 12px rgba(196, 167, 71, 0.4);';
+      closeBtn.onmouseover = function() { this.style.background = '#D4C5A0'; this.style.transform = 'scale(1.1)'; };
+      closeBtn.onmouseout = function() { this.style.background = '#C4A747'; this.style.transform = 'scale(1)'; };
+      closeBtn.onclick = function(e) { e.stopPropagation(); fullImageModal.remove(); };
+      
+      container.appendChild(img);
+      container.appendChild(closeBtn);
+      fullImageModal.appendChild(container);
+      document.body.appendChild(fullImageModal);
+    }
+
+    </script><div id="goog-gt-tt" class="VIpgJd-yAWNEb-L7lbkb skiptranslate" style="border-radius: 12px; margin: 0 0 0 -23px; padding: 0; font-family: &#39;Google Sans&#39;, Arial, sans-serif;" data-id=""><div id="goog-gt-vt" class="VIpgJd-yAWNEb-hvhgNd"><div class="VIpgJd-yAWNEb-hvhgNd-Ud7fr"><img src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/24px.svg" width="24" height="24" alt=""><div class=" VIpgJd-yAWNEb-hvhgNd-IuizWc-i3jM8c " dir="ltr">Testo originale</div></div><div class="VIpgJd-yAWNEb-hvhgNd-k77Iif"><div id="goog-gt-original-text" class="VIpgJd-yAWNEb-nVMfcd-fmcmS VIpgJd-yAWNEb-hvhgNd-axAV1"></div></div><div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid ltr"><div class="VIpgJd-yAWNEb-hvhgNd-N7Eqid-B7I4Od ltr" dir="ltr"><div class="VIpgJd-yAWNEb-hvhgNd-UTujCb">Valuta questa traduzione</div><div class="VIpgJd-yAWNEb-hvhgNd-eO9mKe">Il tuo feedback verrà utilizzato per contribuire a migliorare Google Traduttore</div></div><div class="VIpgJd-yAWNEb-hvhgNd-xgov5 ltr"><button id="goog-gt-thumbUpButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Traduzione di buona qualità" aria-label="Traduzione di buona qualità" aria-pressed="false"><span id="goog-gt-thumbUpIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7H2v13h16c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM7 18H4V9h3v9zm14-7l-3 7H9V8l4.34-4.34L12 9h9v2z"></path></svg></span><span id="goog-gt-thumbUpIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M21 7h-6.31l.95-4.57.03-.32c0-.41-.17-.79-.44-1.06L14.17 0S7.08 6.85 7 7v13h11c.83 0 1.54-.5 1.84-1.22l3.02-7.05c.09-.23.14-.47.14-.73V9c0-1.1-.9-2-2-2zM5 7H1v13h4V7z"></path></svg></span></button><button id="goog-gt-thumbDownButton" type="button" class="VIpgJd-yAWNEb-hvhgNd-bgm6sf" title="Traduzione mediocre" aria-label="Traduzione mediocre" aria-pressed="false"><span id="goog-gt-thumbDownIcon"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7h5V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zM17 6h3v9h-3V6zM3 13l3-7h9v10l-4.34 4.34L12 15H3v-2z"></path></svg></span><span id="goog-gt-thumbDownIconFilled"><svg width="24" height="24" viewBox="0 0 24 24" focusable="false" class="VIpgJd-yAWNEb-hvhgNd-THI6Vb NMm5M"><path d="M3 17h6.31l-.95 4.57-.03.32c0 .41.17.79.44 1.06L9.83 24s7.09-6.85 7.17-7V4H6c-.83 0-1.54.5-1.84 1.22l-3.02 7.05c-.09.23-.14.47-.14.73v2c0 1.1.9 2 2 2zm16 0h4V4h-4v13z"></path></svg></span></button></div></div><div id="goog-gt-votingHiddenPane" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><form id="goog-gt-votingForm" action="https://translate.googleapis.com/translate_voting?client=te_lib" method="post" target="votingFrame" class="VIpgJd-yAWNEb-hvhgNd-aXYTce"><input type="text" name="sl" id="goog-gt-votingInputSrcLang"><input type="text" name="tl" id="goog-gt-votingInputTrgLang"><input type="text" name="query" id="goog-gt-votingInputSrcText"><input type="text" name="gtrans" id="goog-gt-votingInputTrgText"><input type="text" name="vote" id="goog-gt-votingInputVote"></form><iframe name="votingFrame" frameborder="0" src="./Cristalux Royale _ Lampadari italiani di lusso dal 1899_files/saved_resource.html"></iframe></div></div></div>
+</body></html>
